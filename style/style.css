@@ -5,4 +5,14 @@
 
 body {
     font-family: var(--font-family-body);
+    font-size: var(--spacing);
+    font-weight: 65ch;
+    line-height: 1.5;
+    color: var(--text-color);
+    height: 100vh;
+}
+
+section1,
+section3 {
+    background-color: var(--bg-color-section1);
 }
