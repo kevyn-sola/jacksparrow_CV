@@ -1,26 +1,10 @@
 :root {
-    /* Teinte Verte:
-    --medium-candy-apple-red: #de252eff;
-    --paolo-veronese-green: #0a9d75ff;
-    --turquoise-green: #afd7b2ff;
-    --sea-green: #3d8556ff;
-    --dark-green: #062311ff;
-
-    Teinte Rouge:
-    --permanent-geranium-lake: #DE292Dff;
-    --mango-tango: #FF8C46ff;
-    --orange-yellow-crayola: #FED788ff;
-    --black: #090506ff;
-    --eggshell: #EFE7D2ff;
-    */
-    --primary-color: ;
-    --secondary-color: ;
-    --text-color: ;
-    --text-color2: ;
-    --bg-color: ;
+    --text-color: rgb(22, 22, 22);
+    --text-color2: rgb(238, 238, 238);
+    --bg-color-section1: #5B6D5B;
+    --bg-color-section1: #DBD8B9;
 
     --font-family-h1: ;
-    --font-family-h2: ;
     --font-family-body: 'treasureMaps', Arial, Helvetica, sans-serif;
 
     --spacing: 16px;
@@ -31,4 +15,9 @@
 @font-face {
     font-family: 'treasureMaps';
     src: url(/jacksparrow_CV/fonts/TreasureMapDeadhand-yLA3.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: ;
+    src: url();
 }
