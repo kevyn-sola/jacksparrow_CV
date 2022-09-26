@@ -1,0 +1,23 @@
+:root {
+    --text-color: rgb(22, 22, 22);
+    --text-color2: rgb(238, 238, 238);
+    --bg-color-section1: #5B6D5B;
+    --bg-color-section1: #DBD8B9;
+
+    --font-family-h1: ;
+    --font-family-body: 'treasureMaps', Arial, Helvetica, sans-serif;
+
+    --spacing: 16px;
+    --spacing-more: calc(var(--spacing)*2);
+    --spacing-less: calc(var(--spacing)/2);
+}
+
+@font-face {
+    font-family: 'treasureMaps';
+    src: url(/jacksparrow_CV/fonts/TreasureMapDeadhand-yLA3.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
