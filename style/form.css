@@ -24,20 +24,50 @@ form {
     font-size: 2rem;
 }
 
+legend {
+    font-family: var(--font-family-body);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
 .form-input>input {
     height: 1.5rem;
     border-radius: 4px;
+    font-size: 1.5rem;
 }
 
 .form-input>.form-btn {
     height: 3rem;
     background-color: brown;
     font-family: var(--font-family-body);
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--text-color2);
 }
 
-/* .signature_jack {
+@media screen and (min-width: 760px) {
+    .form-parchemin {
+        padding: 25%;
+        justify-content: flex-start;
+    }
+
+    .form-input>label {
+        font-size: 3rem;
+    }
+
+    legend {
+        font-size: 4rem;
+    }
+
+    .form-input>input {
+        height: 2rem;
+    }
+
+    .form-input>.form-btn {
+        font-size: 3rem;
+    }
+}
+
+.signature_jack {
     background-image: url(/img/c2635b48197b847d0d05a39561d74aea.png);
     background-position: bottom;
-} */
+}
