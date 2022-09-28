@@ -10,3 +10,4 @@ To Do:
 
 - Menu Burger v.mobile et v.desktop
 - Ajouter une ancre à scroll-down-indicator -> 1ère section
+- Si on a du temps, on met des samples de Jack onclick sur des boutons
