@@ -1,5 +1,7 @@
 @import url(./root.css);
-
+#scale-ack{
+    font-size: 4rem;
+}
 .head-fullscreen{
     height: 100vh;
     width: 100vw;
@@ -26,36 +28,84 @@
     background-size: cover;
     background-position: bottom center;
 }
-nav{
-    width: 100%;
-    height: 10%;
+
+.title{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    height: 50px;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
-    margin-block-start: calc(2vh + 2vw);
-    padding: calc(var(--spacing-more)*2);
-
-    position: absolute;
-    top: 0;
-    left: 0;
 }
-
 h1{
     font-family: var(--font-family-h1);
     font-size: 8vw;
     color: var(--text-color2);
 }
-
+/*==========================MENU BURGER=========================*/
 .menu-burger{
+    position: fixed;
+    top: 50px;
+    right: 50px;
     height: 50px;
     width: 50px;
 
     border-radius: 50%;
+    background-color: var(--text-color);
 }
 
-.display-menu{
-    display: none;
+.burger-lines{
+    height: 5px;
+    width: 30px;
+
+    border-radius: 2.5px;
+    background-color: var(--text-color2);
+
+    transform-origin: center;
+}
+.line-top{
+    transform: translate(0, -5px);
+}
+
+.line-bot{
+    transform: translate(0, 5px);
+}
+
+.menu-burger-open{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    background-color: var(--text-color);
+}
+.burger-lines-open{
+    height: 5px;
+    width: 30px;
+
+    border-radius: 2.5px;
+    background-color: var(--text-color2);
+
+    transform-origin: center;
+}
+.line-top-open{
+    transform: translate(0, 5px) rotate(45deg);
+}
+
+.line-bot-open{
+    transform: translate(0, -5px) rotate(-45deg);
+}
+.line-middle-open{
+    opacity: 0;
+}
+.menu-burger-open:hover{
+    transform: scale(1.05) rotate(180deg);
+    transition: transform 0.3s;
 }
 
 .lines-container{
@@ -69,19 +119,89 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.burger-lines{
-    height: 5px;
-    width: 30px;
 
-    border-radius: 2.5px;
-    background-color: var(--text-color2);
+
+.menu-burger:hover .line-top{
+    animation: top-line-anim-hover 1s forwards;
 }
-.line-top{
-    transform: translate(0, -5px);
+.menu-burger:hover .line-middle{
+    animation: mid-line-anim-hover 1s forwards;
 }
-.line-bot{
-    transform: translate(0, 5px);
+.menu-burger:hover .line-bot{
+    animation: bot-line-anim-hover 1s forwards;
 }
+
+/*==========================MENU OPEN=========================*/
+.display-menu{
+    position: fixed;
+    top:0; 
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--text-color);
+
+    transform: translateX(100%);
+    transition: transform 700ms ease-in;
+    z-index: 2;
+
+    font-size: 2rem;
+}
+
+.display-menu a{
+    padding: var(--spacing-more);
+
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
+.display-menu-title{
+    font-size: 3rem;
+    color: var(--text-color2);
+    padding: var(--spacing-more);
+}
+
+.display-menu-cross{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+    border-radius: 50%;
+    transform-origin: center;
+    transition: transform 300ms ease-in-out;
+}
+.display-menu-cross:hover{
+    transform-origin: left;
+    transform: scale(1.5) rotate(180deg);
+    
+    transition: transform 300ms ease-in-out;
+    transition: background 400ms ease-in;
+}
+
+.display-menu-links{
+    padding-inline: var(--spacing);
+    transition: transform 300ms ease-in;
+}
+.display-menu-links:hover{
+    transform: translateX(10px) scale(1.05);
+    transition: transform 300ms ease-in;
+}
+
+/*==========================MENU OPEN END=========================*/
+
 .subtitle-header{
     position: absolute;
     bottom: calc(2vh + 70px);
@@ -90,7 +210,10 @@ h1{
     
     color: var(--text-color2);
     text-align: center;
+
+    font-size: 3rem;
 }
+
 .scroll-down-indicator{
     --scaling: 0.8;
     position: absolute;
@@ -103,7 +226,7 @@ h1{
     animation: scroll-down-translate 1s infinite ease;
 }
 
-.half-cross-lines {
+.scroll-half-cross-lines {
     position: absolute;
     top: 0;
     left: 0;
@@ -116,14 +239,102 @@ h1{
     background-color: var(--text-color2);
     animation: 1s infinite ease scroll-down-color;
 }
-.line1{
+.half-cross-line1{
     transform: rotate(45deg) translate(-25px);
 }
-.line2{
+.half-cross-line2{
     transform-origin: bottom;
     transform: rotate(-45deg) translate(25px);
 }
 
+@media screen and (max-width:1000px){
+    .scroll-down-indicator{
+        --scaling : 0.5;
+    }
+    .bg-menu{
+        height: calc(25vh + 10vw);
+    }
+    h1{
+        font-size: 2.5rem;
+        
+    }
+    .title{
+        left: 30px;
+    }
+    #scale-ack{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1000px) {
+    .bg-menu{
+        height: calc(35vh + 10vw);
+    }
+    .menu-burger{
+        width: 75px;
+        height: 75px;
+    }
+    .menu-burger-open{
+        width: 75px;
+        height: 75px;
+    }
+    .burger-lines{
+        height: 5px;
+        width: 50px;
+    }
+    h1{
+        font-size: 5rem;
+        transform: translate(0, 10px);
+    }
+}
+@media screen and (max-width:430px) {
+    h1{
+        top: 50px;
+        font-size: 2rem;
+    }
+    nav{
+        padding-inline: var(--spacing);
+    }
+    .title{
+        left: 10px;
+    }
+    .menu-burger{
+        right: 10px;
+    }
+    #scale-ack{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    h1{
+        font-size: 26px;
+    }
+}
+
+@keyframes top-line-anim-hover{
+    from{
+        transform: translate(0, -5px);
+    }
+    to{
+        transform: translate(0, -7px);
+    }
+}
+@keyframes bot-line-anim-hover{
+    from{
+        transform: translate(0, 5px);
+    }
+    to{
+        transform: translate(0, 7px);
+    }
+}
+@keyframes mid-line-anim-hover{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(1.2);
+    }
+}
 
 @keyframes scroll-down-color{
     from{
@@ -139,45 +350,5 @@ h1{
     }
     to{
         transform: translate(-50%) scale(var(--scaling));
-    }
-}
-
-@media screen and (max-width:700px){
-    .scroll-down-indicator{
-        --scaling : 0.5;
-    }
-    .bg-menu{
-        height: calc(25vh + 10vw);
-    }
-    h1{
-        font-size: 2.5rem;
-    }
-    nav{
-        padding-inline: var(--spacing-more);
-    }
-}
-@media screen and (min-width:1000px) {
-    .bg-menu{
-        height: calc(35vh + 10vw);
-    }
-    .menu-burger{
-        width: 75px;
-        height: 75px;
-    }
-    .burger-lines{
-        height: 5px;
-        width: 50px;
-    }
-    h1{
-        font-size: 5rem;
-    }
-}
-@media screen and (max-width:400px) {
-    h1{
-        top: 60px;
-        font-size: 2rem;
-    }
-    nav{
-        padding-inline: var(--spacing);
     }
 }
