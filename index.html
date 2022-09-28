@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/root.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="/style/form.css">
     <title>Jack Sparrow CV</title>
 </head>
 
@@ -50,11 +51,20 @@
         <div class="lastImg"></div>
     </main>
     <footer>
-        <form>
-            <div class="signature_jack">
-
+        <form action="" method="get" class="form-parchemin">
+            <div class="form-input">
+                <label for="name">Ecrit ton prénom, MON GARS...!!</label>
+                <input type="text" name="name" id="name" required>
             </div>
-
+            <div class="form-input">
+                <label for="email">Ajoute ton adresse postal numérique, UN EMAIL QUOI...!!</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form-input">
+                <input type="submit" value="Appose ta marque COMME MOI..!!">
+            </div>
+            <div class="signature_jack">
+            </div>
         </form>
     </footer>
 </body>
