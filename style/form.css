@@ -67,7 +67,15 @@ legend {
     }
 }
 
-.signature_jack {
-    background-image: url(/img/c2635b48197b847d0d05a39561d74aea.png);
-    background-position: bottom;
+@media screen and (min-width: 400px) {
+    .form-input img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .flex-cachet {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
 }
