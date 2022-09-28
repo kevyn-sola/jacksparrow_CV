@@ -69,13 +69,8 @@ legend {
 
 @media screen and (min-width: 400px) {
     .form-input img {
-        width: 25%;
-        height: 25%;
-    }
-
-    .flex-cachet {
-        display: flex;
-        justify-content: center;
-        padding-top: 2rem;
+        width: 50%;
+        height: 50%;
+        padding-left: 50%;
     }
 }
