@@ -1,0 +1,49 @@
+.competences-section {
+    background-color: var(--bg-color-section2);
+}
+
+.competences-section h1 {
+    color: var(--text-color);
+    text-transform: uppercase;
+    opacity: .3;
+    font-size: 6rem;
+    padding-block-end: var(--spacing-more);
+}
+
+.competences-container {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-body);
+    text-transform: uppercase;
+    font-size: 7rem;
+}
+
+.competence-1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-block-end: var(--spacing-more);
+}
+
+.competence-2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-block-end: var(--spacing-more);
+}
+
+.competence-3 {
+    display: flex;
+    justify-content: flex-start;
+    padding-block-end: var(--spacing-more);
+}
+
+.competence-4 {
+    display: flex;
+    justify-content: flex-end;
+    padding-block-end: var(--spacing-more);
+}
+
+.competence-5 {
+    display: flex;
+    justify-content: flex-start;
+    padding-block-end: var(--spacing-more);
+}
