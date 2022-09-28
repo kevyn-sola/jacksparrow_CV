@@ -8,6 +8,7 @@
 }
 
 .competences-section h1 {
+    font-family: var(--font-family-body);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +79,6 @@
     }
 
     .competences:nth-of-type(5) {
-        justify-self: center;
+        text-align: center;
     }
 }

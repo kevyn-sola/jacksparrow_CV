@@ -14,10 +14,5 @@
 
 @font-face {
     font-family: 'treasureMaps';
-    src: url(/jacksparrow_CV/fonts/TreasureMapDeadhand-yLA3.ttf) format(ttf);
-}
-
-@font-face {
-    font-family: ;
-    src: url();
+    src: url(/fonts/TreasureMapDeadhand-yLA3.ttf) format(ttf);
 }
