@@ -6,6 +6,37 @@ form {
     background-repeat: no-repeat;
 }
 
+.form-parchemin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1rem;
+}
+
+.form-input>label {
+    font-family: var(--font-family-body);
+    font-size: 2rem;
+}
+
+.form-input>input {
+    height: 1.5rem;
+    border-radius: 4px;
+}
+
+.form-input>.form-btn {
+    height: 3rem;
+    background-color: brown;
+    font-family: var(--font-family-body);
+    font-size: 1.5rem;
+    color: var(--text-color2);
+}
+
 /* .signature_jack {
     background-image: url(/img/c2635b48197b847d0d05a39561d74aea.png);
     background-position: bottom;
