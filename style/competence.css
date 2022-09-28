@@ -1,16 +1,37 @@
-.competences-section {
+.section-section3 {
     background-color: var(--bg-color-section2);
+    height: 100%;
+}
+
+.competences-section {
+    margin-inline: var(--spacing);
 }
 
 .competences-section h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block-end: var(--spacing-more);
+    text-transform: uppercase;
+    padding-block: var(--spacing-more);
 }
 
 .competences-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: var(--spacing-more);
+    height: 100%;
+}
+
+.competences h2 {
+    margin-block-start: var(--spacing-more);
+
+}
+
+.competences p {
+    margin-block-start: var(--spacing);
+}
+
+.competences:nth-of-type(5) {
+    margin-block-end: var(--spacing-more);
 }
