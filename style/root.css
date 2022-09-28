@@ -4,7 +4,7 @@
     --bg-color-section1: #5B6D5B;
     --bg-color-section2: #DBD8B9;
 
-    --font-family-h1: ;
+    --font-family-h1: 'blackpearl', Arial, Helvetica, sans-serif;
     --font-family-body: 'treasureMaps', Arial, Helvetica, sans-serif;
 
     --spacing: 16px;
@@ -14,10 +14,10 @@
 
 @font-face {
     font-family: 'treasureMaps';
-    src: url(/jacksparrow_CV/fonts/TreasureMapDeadhand-yLA3.ttf) format(ttf);
+    src: url(/fonts/TreasureMapDeadhand-yLA3.ttf);
 }
 
 @font-face {
-    font-family: '#';
-    src: url();
+    font-family: 'blackpearl';
+    src: url(/fonts/Blackpearl-vPxA.ttf);
 }
