@@ -28,6 +28,7 @@
     display: flex;
     justify-content: flex-end;
     padding-block-end: var(--spacing-more);
+    opacity: .4;
 }
 
 .competence-3 {
@@ -40,10 +41,23 @@
     display: flex;
     justify-content: flex-end;
     padding-block-end: var(--spacing-more);
+    opacity: .4;
 }
+
 
 .competence-5 {
     display: flex;
     justify-content: flex-start;
     padding-block-end: var(--spacing-more);
+}
+
+.competence-5:after {
+    content: 'Rapide';
+}
+
+.competence-5:hover:after {
+    content: "Cours plus vite qu'une tribu de cannibale";
+    font-size: 5rem;
+
+
 }
