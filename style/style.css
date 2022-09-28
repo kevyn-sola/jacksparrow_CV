@@ -12,10 +12,6 @@ body {
     height: 100vh;
 }
 
-h1 {
-    font-family: var(--font-family-h1);
-}
-
 h2 {
     font-family: var(--font-family-body);
     font-size: var(--spacing-more);
@@ -37,23 +33,28 @@ section {
     color: var(--text-color);
 }
 
-/* .lastImg {
+.lastImg {
     background-image: url(/img/Jack-sparrow-facebook-cover-for-facebook-timeline-HERCOVERS-COM-pirates-of-the-caribbean-28634685-851-314.png);
     min-height: 500px;
 }
 
-video {
+.ba_pirates {
     background-image: url(/img/pirates-of-the-caribbean-dead-men-tell-no-tales-jack-sparrow-facebook-cover.jpg);
-    min-height: 600px;
-} */
+    min-height: 300px;
+}
 
-.lastImg,
-video {
+.ba_pirates {
     position: relative;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.lastImg {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 form {
