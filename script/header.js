@@ -1,14 +1,27 @@
-menuBurger = document.getElementById('menu-burger');
-menuBurgerOpen = document.getElementById('menu-burger-open')
-displayMenu = document.getElementById('display-menu')
+const openMenu = () => {
+    displayMenu.style.transform = ("translate(0)");
+}
+const closeMenu = () => {
+    displayMenu.style.transform = ("translate(100%)");
+}
 
+const menuBurger = document.getElementById('menu-burger');
+const menuBurgerOpen = document.getElementById('menu-burger-open');
+const displayMenu = document.getElementById('display-menu');
+let menuLinks = document.querySelectorAll('a');
+
+console.log(menuLinks)
 
 menuBurger.addEventListener('click', () => {
-    displayMenu.style.transform = ("translate(0)");
+    openMenu();
 })
 
 menuBurgerOpen.addEventListener('click', () => {
-    displayMenu.style.transform = ("translate(100%)");
+    closeMenu();
 })
 
-
+menuLinks.forEach(element => {
+    element.addEventListener('click', () => {
+        closeMenu();
+    })
+});
