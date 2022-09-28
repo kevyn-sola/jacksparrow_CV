@@ -35,7 +35,7 @@ section {
 
 .lastImg {
     background-image: url(/img/jack-run.jpg);
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .ba_pirates {
@@ -55,4 +55,10 @@ section {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 760px) {
+    .lastImg {
+        min-height: 800px;
+    }
 }
