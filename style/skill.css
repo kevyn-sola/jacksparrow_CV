@@ -37,6 +37,93 @@
 }
 
 
+
+.competences:nth-of-type(1) {
+    text-align: center;
+    position: relative;
+}
+
+.competences .icon-fighter {
+    position: absolute;
+    background: url(/img/swords-icon.png) center center;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.competences:nth-of-type(2) {
+    text-align: center;
+    position: relative;
+}
+
+.competences .icon-rhum {
+    position: absolute;
+    background: url(/img/rhum-bottle.png) center center;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.competences:nth-of-type(3) {
+    text-align: center;
+    position: relative;
+}
+
+.competences .icon-pillage {
+    position: absolute;
+    background: url(/img/treasure-icon.png) center center;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.competences:nth-of-type(4) {
+    text-align: center;
+    position: relative;
+}
+
+.competences .icon-management {
+    position: absolute;
+    background: url(/img/leader-icon.png) center center;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.competences:nth-of-type(5) {
+    text-align: center;
+    position: relative;
+}
+
+.competences .icon-run {
+    position: absolute;
+    background: url(/img/run-icon.png) center center;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:600px) {
     .section3 {
         height: 100vh;
@@ -56,6 +143,10 @@
 
     }
 
+    .competences-section h1 {
+        font-size: 4rem
+    }
+
     .competences h2 {
         text-align: center;
     }
@@ -64,6 +155,16 @@
         justify-self: center;
         position: relative;
 
+    }
+
+    .competences .icon-fighter {
+        position: absolute;
+        background: url(/img/swords-icon.png) center center;
+        opacity: .15;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .competences .icon-rhum {
@@ -84,9 +185,9 @@
         position: relative;
     }
 
-    .competences .icon-fighter {
+    .competences .icon-rhum {
         position: absolute;
-        background: url(/img/swords-icon.png) center center;
+        background: url(/img/rhum-bottle.png) center center;
         opacity: .2;
         width: 100%;
         height: 100%;
@@ -105,7 +206,7 @@
     .competences .icon-pillage {
         position: absolute;
         background: url(/img/treasure-icon.png) center center;
-        opacity: .2;
+        opacity: .15;
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -122,7 +223,7 @@
     .competences .icon-management {
         position: absolute;
         background: url(/img/leader-icon.png) center center;
-        opacity: .2;
+        opacity: .15;
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -137,7 +238,7 @@
     .competences .icon-run {
         position: absolute;
         background: url(/img/run-icon.png) center center;
-        opacity: .2;
+        opacity: .15;
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
