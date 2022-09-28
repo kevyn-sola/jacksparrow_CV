@@ -6,8 +6,8 @@
     color: var(--text-color);
     text-transform: uppercase;
     opacity: .3;
-    font-size: 6rem;
-    padding-block-end: var(--spacing-more);
+    font-size: 8rem;
+    padding-block-end: calc(var(--spacing-more)*4);
 }
 
 .competences-container {
@@ -16,6 +16,7 @@
     font-family: var(--font-family-body);
     text-transform: uppercase;
     font-size: 7rem;
+    gap: 5rem
 }
 
 .competence-1 {
@@ -24,6 +25,31 @@
     padding-block-end: var(--spacing-more);
 }
 
+.competence-1-hide {
+    display: flex;
+    justify-content: flex-end;
+    padding-block-end: var(--spacing-more);
+    margin-inline-start: calc(var(--spacing-more)*3);
+}
+
+.competence-1-hide:after {
+    content: 'paas vu';
+    opacity: 0;
+}
+
+.competence-1-hide:hover:after {
+    content: 'jfeefjeifj';
+    opacity: 1;
+}
+
+/* .competence-1:hover:after {
+    content: "J'ai brisé une fenetre en lançant une chaise dessus";
+    font-size: 5rem;
+    opacity: 1;
+} */
+
+
+
 .competence-2 {
     display: flex;
     justify-content: flex-end;
@@ -31,11 +57,27 @@
     opacity: .4;
 }
 
+
+.competence-2:hover:after {
+    content: "Santé !";
+    font-size: 5rem;
+}
+
+
+
 .competence-3 {
     display: flex;
     justify-content: flex-start;
     padding-block-end: var(--spacing-more);
 }
+
+
+.competence-3:hover:after {
+    content: "Quel pirate n'aime pas un bon trésor";
+    font-size: 5rem;
+}
+
+
 
 .competence-4 {
     display: flex;
@@ -45,19 +87,23 @@
 }
 
 
+.competence-4:hover:after {
+    content: "Capitaine sur une dizaine de navires";
+    font-size: 5rem;
+}
+
+
+
+
 .competence-5 {
     display: flex;
     justify-content: flex-start;
     padding-block-end: var(--spacing-more);
 }
 
-.competence-5:after {
-    content: 'Rapide';
-}
+
 
 .competence-5:hover:after {
     content: "Cours plus vite qu'une tribu de cannibale";
     font-size: 5rem;
-
-
 }
