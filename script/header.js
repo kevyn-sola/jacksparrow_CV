@@ -10,8 +10,6 @@ const menuBurgerOpen = document.getElementById('menu-burger-open');
 const displayMenu = document.getElementById('display-menu');
 let menuLinks = document.querySelectorAll('a');
 
-console.log(menuLinks)
-
 menuBurger.addEventListener('click', () => {
     openMenu();
 })
