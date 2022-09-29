@@ -7,6 +7,7 @@
     width: 100%;
     height: 100%;
     padding-top: 2rem;
+    margin-block-start: 2rem;
 }
 
 .profil-jack {
@@ -19,6 +20,14 @@
 .content-profil {
     display: flex;
     flex-direction: column;
+}
+
+.content-profil h2 {
+    padding-block-end: var(--spacing-more);
+}
+
+.info-profil {
+    padding-block-start: 2em;
 }
 
 @media screen and (min-width: 760px) {
