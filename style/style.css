@@ -1,10 +1,17 @@
+@import url(./root.css);
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family-body);
     font-size: var(--spacing);
     font-weight: 400;
     line-height: 1.5;
@@ -13,7 +20,7 @@ body {
 }
 
 h2 {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-h2);
     font-size: var(--spacing-more);
 }
 
@@ -34,7 +41,7 @@ section {
 }
 
 .lastImg {
-    background-image: url(/img/Jack-sparrow-facebook-cover-for-facebook-timeline-HERCOVERS-COM-pirates-of-the-caribbean-28634685-851-314.png);
+    background-image: url(/img/jack-run.jpg);
     min-height: 500px;
 }
 
@@ -57,6 +64,8 @@ section {
     background-repeat: no-repeat;
 }
 
-form {
-    background-image: url();
+@media screen and (min-width: 760px) {
+    .lastImg {
+        min-height: 1080px;
+    }
 }

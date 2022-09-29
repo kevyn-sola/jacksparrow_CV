@@ -1,0 +1,131 @@
+@import url(./root.css);
+@import url(/style/style.css);
+
+.section4 {
+    background-color: var(--bg-color-section2);
+    height: 100vh;
+    width: 100vw;
+}
+
+.loisirs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85%;
+}
+
+.section4 h1 {
+    font-size: 50px;
+    font-family: var(--font-family-h1);
+    color: var(--text-color);
+    margin-inline-start: var(--spacing);
+    padding-block-start: var(--spacing);
+}
+
+h2 {
+    font-family: var(--font-family-h2);
+    margin-inline-start: var(--spacing-less);
+    margin-block-start: var(--spacing-less);
+}
+
+p {
+    font-family: var(--font-family-body);
+    margin-inline-start: var(--spacing-less);
+    margin-block-start: var(--spacing);
+    font-size: 23px;
+}
+
+img {
+    max-height: 3rem;
+    border-radius: 25%;
+    margin: var(--spacing-less);
+}
+
+.loisirs-cards-container {
+    display: grid;
+    grid-template-columns: 8% 1fr 10%;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+}
+
+.loisirs-cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color-section3);
+    grid-row: 2/4;
+    grid-column: 1/3;
+    margin-inline-start: var(--spacing);
+    transition: ease-out 0.5s;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.loisirs-cards:hover {
+    scale: 1.05;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.loisirs-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.background-block {
+    background-color: var(--bg-color-section1);
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-inline-end: var(--spacing);
+}
+
+.background-block2 {
+    background-color: var(--bg-color-section1);
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-inline-end: var(--spacing);
+}
+
+@media screen and (min-width: 768px) {
+    .loisirs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: var(--spacing)
+    }
+
+    #cards-container1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    #cards-container2 {
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+
+    #cards-container3 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #cards-container4 {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+
+    #cards-container5 {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    h1 {
+        padding-block: var(--spacing);
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+}

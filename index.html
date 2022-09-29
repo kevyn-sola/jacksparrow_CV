@@ -2,42 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/root.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/root.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="/style/form.css" />
+    <link rel="stylesheet" href="./style/loisirs.css" />
+    <link rel="stylesheet" href="/style/profil.css" />
+    <link rel="stylesheet" href="/style/header.css" />
     <link rel="stylesheet" href="./style/skill.css">
-
+    <link rel="stylesheet" href="/style/pro_experience.css" />
     <title>Jack Sparrow CV</title>
-    <script src="https://kit.fontawesome.com/17f51a975e.js" crossorigin="anonymous" defer></script>
+    <script src="./script/header.js" defer></script>
 </head>
 
 <body>
     <header>
-        <div class="head_fullscreen">
-
+        <div class="head-fullscreen">
+            <div class="bg-menu"></div>
+            <div class="background-image"></div>
+        </div>
+        <nav>
+            <div class="title">
+                <h1>J<span id="scale-ack">AcK</span> Sparrow</h1>
+            </div>
+            <div class="menu-burger" id="menu-burger">
+                <div class="lines-container">
+                    <div class="burger-lines line-top"></div>
+                    <div class="burger-lines line-middle"></div>
+                    <div class="burger-lines line-bot"></div>
+                </div>
+            </div>
+            <div class="display-menu" id="display-menu">
+                <div class="menu-burger-open" id="menu-burger-open">
+                    <div class="lines-container">
+                        <div class="burger-lines-open line-top-open"></div>
+                        <div class="burger-lines-open line-middle-open"></div>
+                        <div class="burger-lines-open line-bot-open"></div>
+                    </div>
+                </div>
+                <a href="#top" class="display-menu-title">Menu</a>
+                <a href="#profil" class="display-menu-links">Profil</a>
+                <a href="#competences" class="display-menu-links">Competences</a>
+                <a href="#experience-pro" class="display-menu-links">Experience professionelle</a>
+                <a href="#loisirs" class="display-menu-links">Loisirs</a>
+                <a href="#contact" class="display-menu-links">Contact</a>
+            </div>
+        </nav>
+        <h2 class="subtitle-header">Free to contract !</h2>
+        <div class="scroll-down-indicator">
+            <a href="#profil" class="scrooll-half-cross">
+                <div class="scroll-half-cross-lines half-cross-line1"></div>
+                <div class="scroll-half-cross-lines half-cross-line2"></div>
+            </a>
         </div>
     </header>
     <main>
-        <section class="section section1">
-            <h2>Titre Test</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
-                cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
-                amet similique voluptatem maxime repellendus sapiente commodi iure libero adipisci et!</p>
+        <section class="section section1" id="profil">
+            <div class="profil-jack">
+                <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow" />
+                <div class="content-profil">
+                    <h2>Profil</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+                        minima harum, magnam itaque modi beatae animi pariatur esse
+                        consequuntur quo autem quis eius odit libero? Culpa, repudiandae,
+                        quis voluptatem voluptatum totam tenetur ad pariatur aperiam
+                        facilis beatae, neque ipsa assumenda.
+                    </p>
+                </div>
+            </div>
+            <img id="signature" src="/img/c2635b48197b847d0d05a39561d74aea.png" alt="signature jack" />
         </section>
-        <div class="ba_pirates">
-        </div>
-        <section class="section section2">
-            <h2>Titre Test</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
-                cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
-                amet similique voluptatem maxime repellendus sapiente commodi iure libero adipisci et!</p>
-        </section>
-        <div class="ba_pirates">
-        </div>
-        <section class="section section3">
-
+        <div class="ba_pirates"></div>
+        <section class="section section2" id="competences">
             <div class="competences-section">
                 <h1>Competences</h1>
                 <div class="competences-container">
@@ -68,31 +107,157 @@
                         <p> Je cours plus vite qu'une tribu de cannibales.</p>
                     </div>
                 </div>
-
             </div>
         </section>
-        <div class="ba_pirates">
-        </div>
-        <section class="section section4"></section>
-        <div class="img">
-            <div class="text-empty"></div>
-        </div>
+        <div class="ba_pirates"></div>
+        <section class="section section3" id="experience-pro">
+            <h2>Experience professionelle</h2>
+            <div class="experience-pro-container">
+                <div class="date">
+                    <p>
+                        1634 - 1640
+                    </p>
+                </div>
+                <div class="experience">
+                    <p>
+                        Capitaine du Black Pearl<br>
+                        Pillage & recherche de trésor en tout genre !
+                    </p>
+                </div>
+                <div class="date">
+                    <p>
+                        1640
+                    </p>
+                </div>
+                <div class="experience">
+                    <p>
+                        Capitaine d'un vieux raffiot avec une équipe de bras cassé.<br>
+                        Objectif : Récupérer mon beau Black Pearl
+                    </p>
+                </div>
+                <div class="date">
+                    <p>
+                        1642 - 1644
+                    </p>
+                </div>
+                <div class="experience">
+                    <p>
+                        Capitaine du Black Pearl
+                    </p>
+                </div>
+                <div class="date">
+                    <p>
+                        1644
+                </div>
+                <div class="experience">
+                    <p>
+                        Mort - RIP moi
+                    </p>
+                </div>
+                <div class="date">
+                    <p>
+                        1646
+                </div>
+                <div class="experience">
+                    <p>
+                        Plus mort !
+                    </p>
+                </div>
+                <div class="date">
+                    <p>
+                        1649
+                </div>
+                <div class="experience">
+                    <p>
+                        Recherche de la Fontaine de Jouvence.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <div class="ba_pirates"></div>
         <section class="section section4">
-            <h2>Titre Test</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia
-                excepturi
-                cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus!
-                Facilis
-                amet similique voluptatem maxime repellendus sapiente commodi iure libero adipisci et!</p>
+            <h1>Loisirs</h1>
+            <div class="loisirs">
+                <div class="loisirs-cards-container" id="cards-container1">
+                    <div class="loisirs-cards">
+                        <div class="loisirs-text-container">
+                            <h2>Pecher</h2>
+                            <p>Kraken, merle, sardine.</p>
+                        </div>
+                        <img src="img/kraken.png" alt="an image of a kraken" />
+                    </div>
+                    <div class="background-block"></div>
+                    <div class="background-block2"></div>
+                </div>
+
+                <div class="loisirs-cards-container" id="cards-container2">
+                    <div class="loisirs-cards">
+                        <div class="loisirs-text-container">
+                            <h2>Escrime</h2>
+                            <p>J'aime la bagarre.</p>
+                        </div>
+                        <img src="/img/swords.png" alt="2 katanas crossing each other" />
+                    </div>
+                    <div class="background-block"></div>
+                    <div class="background-block2"></div>
+                </div>
+
+                <div class="loisirs-cards-container" id="cards-container3">
+                    <div class="loisirs-cards">
+                        <div class="loisirs-text-container">
+                            <h2>Tir sportif</h2>
+                            <p>Pan, pan, pan.</p>
+                        </div>
+                        <img src="img/musket.png" alt="an image of a musket" />
+                    </div>
+                    <div class="background-block"></div>
+                    <div class="background-block2"></div>
+                </div>
+
+                <div class="loisirs-cards-container" id="cards-container4">
+                    <div class="loisirs-cards">
+                        <div class="loisirs-text-container">
+                            <h2>Rhum</h2>
+                            <p>Juste le boire, pas le distiller.</p>
+                        </div>
+                        <img src="img/barrel.png" alt="image of a barrel" />
+                    </div>
+                    <div class="background-block"></div>
+                    <div class="background-block2"></div>
+                </div>
+
+                <div class="loisirs-cards-container" id="cards-container5">
+                    <div class="loisirs-cards">
+                        <div class="loisirs-text-container">
+                            <h2>Seduction</h2>
+                            <p>Des fois ça marche.</p>
+                        </div>
+                        <img src="img/heart.png" alt="image of a heart" />
+                    </div>
+                    <div class="background-block"></div>
+                    <div class="background-block2"></div>
+                </div>
+            </div>
         </section>
         <div class="lastImg"></div>
     </main>
     <footer>
-        <form>
-            <div class="signature_jack">
-
+        <form action="" method="get" class="form-parchemin" id="contact">
+            <div class="form-input">
+                <legend>Allez mon gars... Contact moi!</legend>
+                <label for="name">Ecrit ton nom!</label>
+                <input type="text" name="name" id="name" required placeholder="Name" />
             </div>
-
+            <div class="form-input">
+                <label for="email">Ajoute ton adresse postal numerique!</label>
+                <input type="text" name="email" id="email" required placeholder="Email adress" />
+            </div>
+            <div class="form-input">
+                <input class="form-btn" type="submit" value="Appose ta marque !!" />
+                <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates" />
+            </div>
+            <div class="signature_jack"></div>
         </form>
     </footer>
 </body>
