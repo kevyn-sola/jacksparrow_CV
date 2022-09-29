@@ -5,7 +5,7 @@
 ## To Do:
 
 * root Done (Vérification des couleurs et de la fonts)  
-    `* Modification h1 / h2 / body font`
+    `* Modification h1 / h2 / body font`  
     `* Responsive parts`
 * Faire video de background ou alors prendre photo de secours.
 * Copyright en footer
