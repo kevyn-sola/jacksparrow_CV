@@ -5,12 +5,21 @@
     width: 100vw;
 }
 
+.section3 > h2{
+    margin: auto;
+    text-align: center;
+    
+    font-size: 32px;
+    font-family: var(--font-family-h1);
+}
+
 .experience-pro-container {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 3fr;
     width: 100%;
     padding: var(--spacing);
+    margin-block-end: var(--spacing)
 }
 
 .date {
@@ -20,21 +29,25 @@
     border-bottom: 1px solid var(--text-color2);
     padding: var(--spacing);
 }
+
 .experience{
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--text-color2);
     padding: var(--spacing);
 }
+
 .date p{
     font-family: var(--font-family-h2);
     font-size: 2rem;
     text-align: center;
 }
+
 .experience {
     padding-inline-start: var(--spacing-more);
     font-family: var(--font-family-body);
 }
+
 .experience p{
     font-size: 1rem;
 }
@@ -52,11 +65,13 @@
 .quotes-container:not(:nth-child(2)){
     margin-block-start: 2rem;
 }
-
+.exp-quotes {
+    padding: var(--spacing);
+    padding-block-end: var(--spacing-more);
+}
 .exp-quotes p {
     font-size: 1rem;
     font-style: italic;
-    
 }
 
 .exp-quotes h2{
@@ -79,12 +94,18 @@
 }
 
 @media screen and (min-width: 640px){
+
+    .experience-pro-container{
+        max-width: 900px;
+        margin-inline: auto;
+    }
+
     .exp-quotes{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2rem 1fr 1fr;
         gap: var(--spacing-more);
-        max-width: 95%;
+        max-width: 900px;
         margin: auto;
     }
 
