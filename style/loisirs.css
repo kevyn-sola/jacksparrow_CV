@@ -3,7 +3,6 @@
 
 .section4 {
     background-color: var(--bg-color-section2);
-    height: 100vh;
     width: 100vw;
 }
 
@@ -49,6 +48,7 @@
     display: grid;
     grid-template-columns: 8% 1fr 10%;
     grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
 }
 
 .loisirs-cards {
