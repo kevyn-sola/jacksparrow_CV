@@ -17,6 +17,33 @@
     align-items: center;
 }
 
+.img-icon-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--spacing-more);
+}
+
+.permis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-less);
+}
+
+.permis p {
+    font-family: var(--font-family-h2);
+}
+
+.img-icon-profil #ancre-bateau {
+    height: 30px;
+    width: 30px;
+
+}
+
+.img-icon-profil p {}
+
 .content-profil {
     display: flex;
     flex-direction: column;
