@@ -141,6 +141,7 @@
         height: 100%;
         width: auto;
         padding-block-end: 4rem;
+        font-size: var(--spacing);
 
     }
 
@@ -151,6 +152,7 @@
 
     .competences h2 {
         text-align: center;
+
     }
 
     .competences:nth-of-type(1) {
