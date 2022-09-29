@@ -14,7 +14,7 @@
     height: 85%;
 }
 
-h1 {
+.section4 h1 {
     font-size: 50px;
     font-family: var(--font-family-h1);
     color: var(--text-color);

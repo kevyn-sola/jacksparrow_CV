@@ -44,7 +44,7 @@
 
 }
 
-h1 {
+header h1 {
     font-family: var(--font-family-h1);
     font-size: 8vw;
     color: var(--text-color2);
