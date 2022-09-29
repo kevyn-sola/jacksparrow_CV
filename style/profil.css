@@ -32,7 +32,8 @@
     }
 
     #signature {
-        width: 50%;
+        max-width: 30%;
+        width: 30%;
         height: 50%;
         padding-top: 0;
         padding-bottom: 2rem;
