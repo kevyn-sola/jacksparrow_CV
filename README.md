@@ -7,6 +7,7 @@
 - root Done (Vérification des couleurs et de la fonts)
 - Faire video de background ou alors prendre photo de secours.
 - Copyright en footer
+- ajout de commentaire possible JS
 - blackmarket sur menu via shop alcohol
 
 ## Team:
