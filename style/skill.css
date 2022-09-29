@@ -1,4 +1,4 @@
-.section3 {
+.section2 {
     background-color: var(--bg-color-section2);
     height: 100%;
     color: var(--text-color);
@@ -126,7 +126,7 @@
 
 
 @media screen and (min-width:600px) {
-    .section3 {
+    .section2 {
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -134,7 +134,7 @@
 
     }
 
-    .section3 .competences-container {
+    .section2 .competences-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
