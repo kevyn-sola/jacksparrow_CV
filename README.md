@@ -5,10 +5,8 @@
 ## To Do:
 
 - root Done (Vérification des couleurs et de la fonts)
-- Changer la taille de la signature (profil.css)
 - Faire video de background ou alors prendre photo de secours.
 - Copyright en footer
-- Ajouter une ancre à scroll-down-indicator -> 1ère section
 - blackmarket sur menu via shop alcohol
 
 ## Team:
