@@ -10,13 +10,49 @@
     <link rel="stylesheet" href="/style/form.css">
     <link rel="stylesheet" href="/style/profil.css">
     <title>Jack Sparrow CV</title>
-</head>
+    <script src="./script/header.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="head_fullscreen">
-
+      <div class="head-fullscreen">
+        <div class="bg-menu"></div>
+        <div class="background-image"></div>
+      </div>
+      <nav>
+        <div class="title">
+            <h1>J<span id="scale-ack">AcK</span> Sparrow</h1>
         </div>
+            <div class="menu-burger" id="menu-burger">
+                <div class="lines-container">
+                    <div class="burger-lines line-top"></div>
+                    <div class="burger-lines line-middle"></div>
+                    <div class="burger-lines line-bot"></div>
+                </div>
+            </div>
+        <div class="display-menu" id="display-menu">
+            <div class="menu-burger-open" id="menu-burger-open">
+                <div class="lines-container">
+                    <div class="burger-lines-open line-top-open"></div>
+                    <div class="burger-lines-open line-middle-open"></div>
+                    <div class="burger-lines-open line-bot-open"></div>
+                </div>
+            </div>
+            <a href="#top" class="display-menu-title">Menu</a>
+            <a href="#profil" class="display-menu-links">Profil</a>
+            <a href="#competences" class="display-menu-links">Competences</a>
+            <a href="#experience-pro" class="display-menu-links">Experience professionelle</a>
+            <a href="#loisirs" class="display-menu-links">Loisirs</a>
+            <a href="#" class="display-menu-links">Contact</a>
+        </div>
+      </nav>
+    <h2 class="subtitle-header">Free to contract !</h2>
+    <div class="scroll-down-indicator">
+        <a href="#profil" class="scrooll-half-cross">
+          <div class="scroll-half-cross-lines half-cross-line1"></div>
+          <div class="scroll-half-cross-lines half-cross-line2"></div>
+        </a>
+    </div>
     </header>
     <main>
         <section class="section section1">
@@ -36,7 +72,7 @@
         </section>
         <div class="ba_pirates">
         </div>
-        <section class="section section2">
+        <section class="section section2" id="competences">
             <h2>Titre Test</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
                 cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
@@ -44,7 +80,7 @@
         </section>
         <div class="ba_pirates">
         </div>
-        <section class="section section3">
+        <section class="section section3" id="experience-pro">
             <h2>Titre Test</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
                 cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
@@ -52,7 +88,7 @@
         </section>
         <div class="ba_pirates">
         </div>
-        <section class="section section4">
+        <section class="section section4" id="loisirs">
             <h2>Titre Test</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
                 cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
