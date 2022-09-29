@@ -14,11 +14,11 @@
 ## Team:
 
 Rajouter nos github !!!
-- Hugues Hertout
-url();
-- Valentin Gillet
-url();
+- Hugues Hertout:
+https://github.com/hhertout
+- Valentin Gillet:
+https://github.com/V-Gillet
 - Mikaël Gallé
-url();
+https://github.com/toomanyMG
 - Kevyn Sola
-url();
+https://github.com/Planger45
