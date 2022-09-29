@@ -7,22 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/root.css">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="/style/form.css">
+    <link rel="stylesheet" href="/style/header.css">
     <link rel="stylesheet" href="/style/profil.css">
+    <link rel="stylesheet" href="/style/form.css">
     <title>Jack Sparrow CV</title>
     <script src="./script/header.js" defer></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="head-fullscreen">
-        <div class="bg-menu"></div>
-        <div class="background-image"></div>
-      </div>
-      <nav>
-        <div class="title">
-            <h1>J<span id="scale-ack">AcK</span> Sparrow</h1>
+        <div class="head-fullscreen">
+            <div class="bg-menu"></div>
+            <div class="background-image"></div>
         </div>
+        <nav>
+            <div class="title">
+                <h1>J<span id="scale-ack">AcK</span> Sparrow</h1>
+            </div>
             <div class="menu-burger" id="menu-burger">
                 <div class="lines-container">
                     <div class="burger-lines line-top"></div>
@@ -30,29 +31,29 @@
                     <div class="burger-lines line-bot"></div>
                 </div>
             </div>
-        <div class="display-menu" id="display-menu">
-            <div class="menu-burger-open" id="menu-burger-open">
-                <div class="lines-container">
-                    <div class="burger-lines-open line-top-open"></div>
-                    <div class="burger-lines-open line-middle-open"></div>
-                    <div class="burger-lines-open line-bot-open"></div>
+            <div class="display-menu" id="display-menu">
+                <div class="menu-burger-open" id="menu-burger-open">
+                    <div class="lines-container">
+                        <div class="burger-lines-open line-top-open"></div>
+                        <div class="burger-lines-open line-middle-open"></div>
+                        <div class="burger-lines-open line-bot-open"></div>
+                    </div>
                 </div>
+                <a href="#top" class="display-menu-title">Menu</a>
+                <a href="#profil" class="display-menu-links">Profil</a>
+                <a href="#competences" class="display-menu-links">Competences</a>
+                <a href="#experience-pro" class="display-menu-links">Experience professionelle</a>
+                <a href="#loisirs" class="display-menu-links">Loisirs</a>
+                <a href="#contact" class="display-menu-links">Contact</a>
             </div>
-            <a href="#top" class="display-menu-title">Menu</a>
-            <a href="#profil" class="display-menu-links">Profil</a>
-            <a href="#competences" class="display-menu-links">Competences</a>
-            <a href="#experience-pro" class="display-menu-links">Experience professionelle</a>
-            <a href="#loisirs" class="display-menu-links">Loisirs</a>
-            <a href="#" class="display-menu-links">Contact</a>
+        </nav>
+        <h2 class="subtitle-header">Free to contract !</h2>
+        <div class="scroll-down-indicator">
+            <a href="#profil" class="scrooll-half-cross">
+                <div class="scroll-half-cross-lines half-cross-line1"></div>
+                <div class="scroll-half-cross-lines half-cross-line2"></div>
+            </a>
         </div>
-      </nav>
-    <h2 class="subtitle-header">Free to contract !</h2>
-    <div class="scroll-down-indicator">
-        <a href="#profil" class="scrooll-half-cross">
-          <div class="scroll-half-cross-lines half-cross-line1"></div>
-          <div class="scroll-half-cross-lines half-cross-line2"></div>
-        </a>
-    </div>
     </header>
     <main>
         <section class="section section1">
@@ -97,7 +98,7 @@
         <div class="lastImg"></div>
     </main>
     <footer>
-        <form action="" method="get" class="form-parchemin">
+        <form action="" method="get" class="form-parchemin" id="contact">
             <div class="form-input">
                 <legend>Allez mon gars... Contact moi!</legend>
                 <label for="name">Ecrit ton nom!</label>
@@ -110,8 +111,6 @@
             <div class="form-input">
                 <input class="form-btn" type="submit" value="Appose ta marque !!">
                 <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates">
-            </div>
-            <div class="signature_jack">
             </div>
         </form>
     </footer>
