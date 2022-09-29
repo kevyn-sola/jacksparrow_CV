@@ -9,7 +9,7 @@
 }
 
 .competences-section h1 {
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-h1);
     font-size: var(--spacing-more);
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@
 
 .competences p {
     margin-block-start: var(--spacing);
+    font-weight: bold;
 }
 
 
@@ -137,14 +138,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 90vh;
+        height: 100%;
         width: auto;
-        margin-block-end: var(--spacing-more);
+        padding-block-end: 4rem;
 
     }
 
     .competences-section h1 {
-        font-size: 4rem;
+        font-size: var(--spacing-more);
         margin-block-start: var(--spacing-more);
     }
 
