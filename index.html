@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/root.css" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/header.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/root.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="/style/form.css">
+    <link rel="stylesheet" href="/style/profil.css">
     <title>Jack Sparrow CV</title>
     <script src="./script/header.js" defer></script>
   </head>
@@ -22,7 +23,6 @@
         <div class="title">
             <h1>J<span id="scale-ack">AcK</span> Sparrow</h1>
         </div>
-        
             <div class="menu-burger" id="menu-burger">
                 <div class="lines-container">
                     <div class="burger-lines line-top"></div>
@@ -30,7 +30,6 @@
                     <div class="burger-lines line-bot"></div>
                 </div>
             </div>
-
         <div class="display-menu" id="display-menu">
             <div class="menu-burger-open" id="menu-burger-open">
                 <div class="lines-container">
@@ -39,19 +38,14 @@
                     <div class="burger-lines-open line-bot-open"></div>
                 </div>
             </div>
-
             <a href="#top" class="display-menu-title">Menu</a>
             <a href="#profil" class="display-menu-links">Profil</a>
             <a href="#competences" class="display-menu-links">Competences</a>
             <a href="#experience-pro" class="display-menu-links">Experience professionelle</a>
             <a href="#loisirs" class="display-menu-links">Loisirs</a>
             <a href="#" class="display-menu-links">Contact</a>
-
         </div>
-
-
       </nav>
-
     <h2 class="subtitle-header">Free to contract !</h2>
     <div class="scroll-down-indicator">
         <a href="#profil" class="scrooll-half-cross">
@@ -61,11 +55,20 @@
     </div>
     </header>
     <main>
-        <section class="section section1" id="profil">
-            <h2>Titre Test</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est esse omnis dolores aliquid quia excepturi
-                cupiditate odit sequi velit qui totam officia nesciunt nobis repellendus, non, nemo temporibus! Facilis
-                amet similique voluptatem maxime repellendus sapiente commodi iure libero adipisci et!</p>
+        <section class="section section1">
+            <div class="profil-jack">
+                <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow">
+                <div class="content-profil">
+                    <h2>Profil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt minima harum, magnam itaque
+                        modi
+                        beatae animi pariatur esse consequuntur quo autem quis eius odit libero? Culpa, repudiandae,
+                        quis
+                        voluptatem voluptatum totam tenetur ad pariatur aperiam facilis beatae, neque ipsa assumenda.
+                    </p>
+                </div>
+            </div>
+            <img id="signature" src="/img/c2635b48197b847d0d05a39561d74aea.png" alt="signature jack">
         </section>
         <div class="ba_pirates">
         </div>
@@ -94,11 +97,22 @@
         <div class="lastImg"></div>
     </main>
     <footer>
-        <form>
-            <div class="signature_jack"></div>
-
+        <form action="" method="get" class="form-parchemin">
+            <div class="form-input">
+                <legend>Allez mon gars... Contact moi!</legend>
+                <label for="name">Ecrit ton nom!</label>
+                <input type="text" name="name" id="name" required placeholder="Name">
             </div>
-
+            <div class="form-input">
+                <label for="email">Ajoute ton adresse postal numerique!</label>
+                <input type="text" name="email" id="email" required placeholder="Email adress">
+            </div>
+            <div class="form-input">
+                <input class="form-btn" type="submit" value="Appose ta marque !!">
+                <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates">
+            </div>
+            <div class="signature_jack">
+            </div>
         </form>
     </footer>
 </body>
