@@ -1,14 +1,19 @@
-.section3{
+@import url(./root.css);
+@import url(/style/style.css);
+
+.section3 {
     width: 100vw;
 }
-.experience-pro-container{
+
+.experience-pro-container {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 3fr;
     gap: var(--spacing);
     width: 100%;
 }
-.date{
+
+.date {
     display: flex;
     align-items: center;
     justify-content: center;

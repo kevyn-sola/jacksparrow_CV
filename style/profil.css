@@ -1,3 +1,6 @@
+@import url(./root.css);
+@import url(/style/style.css);
+
 .profil-jack img {
     width: 300px;
     height: 300px;
