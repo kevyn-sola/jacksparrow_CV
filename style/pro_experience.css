@@ -5,12 +5,31 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 3fr;
-    gap: var(--spacing);
     width: 100%;
+    padding: var(--spacing);
 }
 .date{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    border-bottom: 1px solid var(--text-color2);
+    padding: var(--spacing);
+}
+.experience{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--text-color2);
+    padding: var(--spacing);
+}
+.date p{
+    font-family: var(--font-family-h2);
+    font-size: 2rem;
+    text-align: center;
+}
+.experience {
+    padding-inline-start: var(--spacing-more);
+    font-family: var(--font-family-body);
+}
+.experience p{
+    font-size: 1rem;
 }

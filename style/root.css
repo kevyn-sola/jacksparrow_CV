@@ -6,8 +6,8 @@
     --bg-color-section3: #FED788;
 
     --font-family-h1: 'blackpearl', Arial, Helvetica, sans-serif;
-    --font-family-body: 'treasureMaps', Arial, Helvetica, sans-serif;
-    --font-family-h2: 'blackpearl', Arial, Helvetica, sans-serif;
+    --font-family-body: Arial, Helvetica, sans-serif;
+    --font-family-h2: 'treasureMaps', Arial, Helvetica, sans-serif;
 
     --spacing: 16px;
     --spacing-more: calc(var(--spacing)*2);
