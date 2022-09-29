@@ -33,3 +33,25 @@
 .experience p{
     font-size: 1rem;
 }
+
+.quotes-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-quotes-container{
+    display: flex;
+    align-items: center;
+}
+
+.exp-quotes p {
+    font-size: 1rem;
+    font-style: italic;
+    
+}
+
+.quotes-pic{
+    margin-inline-end: var(--spacing);
+    width:auto;
+    height: 3rem;
+}
