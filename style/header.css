@@ -1,26 +1,29 @@
 @import url(./root.css);
-#scale-ack{
+
+#scale-ack {
     font-size: 4rem;
 }
-.head-fullscreen{
+
+.head-fullscreen {
     height: 100vh;
     width: 100vw;
 }
-.background-image{
+
+.background-image {
     width: 100%;
     height: 100%;
-    
+
     background-image: url(../media/blackPearl_theme.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.bg-menu{
+.bg-menu {
     position: absolute;
-    top : 0;
+    top: 0;
     left: 0;
-    
+
     width: 100%;
     height: calc(30vh + 10vw);
 
@@ -29,7 +32,7 @@
     background-position: bottom center;
 }
 
-.title{
+.title {
     position: absolute;
     top: 50px;
     left: 50px;
@@ -40,13 +43,15 @@
     align-items: center;
 
 }
-h1{
+
+header h1 {
     font-family: var(--font-family-h1);
     font-size: 8vw;
     color: var(--text-color2);
 }
+
 /*==========================MENU BURGER=========================*/
-.menu-burger{
+.menu-burger {
     position: fixed;
     top: 50px;
     right: 50px;
@@ -59,7 +64,7 @@ h1{
     z-index: 2;
 }
 
-.burger-lines{
+.burger-lines {
     height: 5px;
     width: 30px;
 
@@ -68,15 +73,16 @@ h1{
 
     transform-origin: center;
 }
-.line-top{
+
+.line-top {
     transform: translate(0, -5px);
 }
 
-.line-bot{
+.line-bot {
     transform: translate(0, 5px);
 }
 
-.menu-burger-open{
+.menu-burger-open {
     position: fixed;
     top: 50px;
     right: 50px;
@@ -86,7 +92,8 @@ h1{
     border-radius: 50%;
     background-color: var(--text-color);
 }
-.burger-lines-open{
+
+.burger-lines-open {
     height: 5px;
     width: 30px;
 
@@ -95,27 +102,30 @@ h1{
 
     transform-origin: center;
 }
-.line-top-open{
+
+.line-top-open {
     transform: translate(0, 5px) rotate(45deg);
 }
 
-.line-bot-open{
+.line-bot-open {
     transform: translate(0, -5px) rotate(-45deg);
 }
-.line-middle-open{
+
+.line-middle-open {
     opacity: 0;
 }
-.menu-burger-open:hover{
+
+.menu-burger-open:hover {
     transform: scale(1.05) rotate(180deg);
     transition: transform 0.3s;
 }
 
-.lines-container{
+.lines-container {
     width: 100%;
     height: 100%;
 
     border-radius: 50%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,20 +133,22 @@ h1{
 }
 
 
-.menu-burger:hover .line-top{
+.menu-burger:hover .line-top {
     animation: top-line-anim-hover 1s forwards;
 }
-.menu-burger:hover .line-middle{
+
+.menu-burger:hover .line-middle {
     animation: mid-line-anim-hover 1s forwards;
 }
-.menu-burger:hover .line-bot{
+
+.menu-burger:hover .line-bot {
     animation: bot-line-anim-hover 1s forwards;
 }
 
 /*==========================MENU OPEN=========================*/
-.display-menu{
+.display-menu {
     position: fixed;
-    top:0; 
+    top: 0;
     left: 0;
 
     width: 100%;
@@ -154,17 +166,17 @@ h1{
     z-index: 2;
 
     font-size: 2rem;
-    font-family: var(--font-family-body);
+    font-family: var(--font-family-h2);
 }
 
-.display-menu a{
+.display-menu a {
     padding: var(--spacing-more);
 
     text-decoration: none;
     color: var(--text-color2);
 }
 
-.display-menu-title{
+.display-menu-title {
     font-size: 3rem;
     color: var(--text-color2);
     padding: var(--spacing-more);
@@ -172,7 +184,7 @@ h1{
     font-family: var(--font-family-h1);
 }
 
-.display-menu-cross{
+.display-menu-cross {
     width: 50px;
     height: 50px;
 
@@ -188,38 +200,41 @@ h1{
     transform-origin: center;
     transition: transform 300ms ease-in-out;
 }
-.display-menu-cross:hover{
+
+.display-menu-cross:hover {
     transform-origin: left;
     transform: scale(1.5) rotate(180deg);
-    
+
     transition: transform 300ms ease-in-out;
     transition: background 400ms ease-in;
 }
 
-.display-menu-links{
+.display-menu-links {
     padding-inline: var(--spacing);
     transition: transform 300ms ease-in;
 }
-.display-menu-links:hover{
+
+.display-menu-links:hover {
     transform: translateX(10px) scale(1.05);
     transition: transform 300ms ease-in;
 }
 
 /*==========================MENU OPEN END=========================*/
 
-.subtitle-header{
+.subtitle-header {
     position: absolute;
     bottom: calc(2vh + 70px);
     left: 50%;
     transform: translate(-50%, 0);
-    
+
     color: var(--text-color2);
     text-align: center;
+    font-family: var(--font-family-h2);
 
     font-size: 3rem;
 }
 
-.scroll-down-indicator{
+.scroll-down-indicator {
     --scaling: 0.8;
     position: absolute;
     bottom: calc(2vh + 10px);
@@ -235,7 +250,7 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    
+
 
     height: 5px;
     width: 50px;
@@ -244,116 +259,140 @@ h1{
     background-color: var(--text-color2);
     animation: 1s infinite ease scroll-down-color;
 }
-.half-cross-line1{
+
+.half-cross-line1 {
     transform: rotate(45deg) translate(-25px);
 }
-.half-cross-line2{
+
+.half-cross-line2 {
     transform-origin: bottom;
     transform: rotate(-45deg) translate(25px);
 }
 
-@media screen and (max-width:1000px){
-    .scroll-down-indicator{
-        --scaling : 0.5;
+@media screen and (max-width:1000px) {
+    .scroll-down-indicator {
+        --scaling: 0.5;
     }
-    .bg-menu{
+
+    .bg-menu {
         height: calc(25vh + 10vw);
     }
-    h1{
+
+    h1 {
         font-size: 2.5rem;
-        
+
     }
-    .title{
+
+    .title {
         left: 30px;
     }
-    #scale-ack{
+
+    #scale-ack {
         font-size: 2rem;
     }
 }
+
 @media screen and (min-width:1000px) {
-    .bg-menu{
+    .bg-menu {
         height: calc(35vh + 10vw);
     }
-    .menu-burger{
+
+    .menu-burger {
         width: 75px;
         height: 75px;
     }
-    .menu-burger-open{
+
+    .menu-burger-open {
         width: 75px;
         height: 75px;
     }
-    .burger-lines{
+
+    .burger-lines {
         height: 5px;
         width: 50px;
     }
-    h1{
+
+    h1 {
         font-size: 5rem;
         transform: translate(0, 10px);
     }
 }
+
 @media screen and (max-width:430px) {
-    h1{
+    h1 {
         top: 50px;
         font-size: 2rem;
     }
-    nav{
+
+    nav {
         padding-inline: var(--spacing);
     }
-    .title{
+
+    .title {
         left: 10px;
     }
-    .menu-burger{
+
+    .menu-burger {
         right: 10px;
     }
-    #scale-ack{
+
+    #scale-ack {
         font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width:300px) {
-    h1{
+    h1 {
         font-size: 26px;
     }
 }
 
-@keyframes top-line-anim-hover{
-    from{
+@keyframes top-line-anim-hover {
+    from {
         transform: translate(0, -5px);
     }
-    to{
+
+    to {
         transform: translate(0, -7px);
     }
 }
-@keyframes bot-line-anim-hover{
-    from{
+
+@keyframes bot-line-anim-hover {
+    from {
         transform: translate(0, 5px);
     }
-    to{
+
+    to {
         transform: translate(0, 7px);
     }
 }
-@keyframes mid-line-anim-hover{
-    from{
+
+@keyframes mid-line-anim-hover {
+    from {
         transform: scaleX(1);
     }
-    to{
+
+    to {
         transform: scaleX(1.2);
     }
 }
 
-@keyframes scroll-down-color{
-    from{
+@keyframes scroll-down-color {
+    from {
         background-color: var(--text-color2);
     }
-    to{
+
+    to {
         background-color: white;
     }
 }
-@keyframes scroll-down-translate{
-    from{
+
+@keyframes scroll-down-translate {
+    from {
         transform: translate(-50%, -10px) scale(var(--scaling));
     }
-    to{
+
+    to {
         transform: translate(-50%) scale(var(--scaling));
     }
 }

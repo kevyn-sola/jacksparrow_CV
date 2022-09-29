@@ -1,16 +1,24 @@
-# jacksparrow_CV
-Projet: Réaliser un CV d'un personnage fictif via un site web
+# Jacksparrow_CV
 
+- Projet: Réaliser un CV d'un personnage fictif via un site web
 
-To Do:
-- root a terminer
-- form a vérifier sur responsive
-- cachet de cire a faire PS
-- parchemin a faire PS
+## To Do:
 
-- Menu Burger v.mobile et v.desktop
+- root Done (Vérification des couleurs et de la fonts)
+- Changer la taille de la signature (profil.css)
+- Faire video de background ou alors prendre photo de secours.
+- Copyright en footer
 - Ajouter une ancre à scroll-down-indicator -> 1ère section
 - Si on a du temps, on met des samples de Jack onclick sur des boutons
 
+## Team:
 
 Rajouter nos github !!!
+- Hugues Hertout:
+https://github.com/hhertout
+- Valentin Gillet:
+https://github.com/V-Gillet
+- Mikaël Gallé
+https://github.com/toomanyMG
+- Kevyn Sola
+https://github.com/Planger45
