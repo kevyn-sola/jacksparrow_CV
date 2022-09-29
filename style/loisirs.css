@@ -14,6 +14,7 @@
     height: 85%;
 }
 
+
 .section4 h1 {
     font-size: 50px;
     font-family: var(--font-family-h1);
@@ -22,11 +23,13 @@
     padding-block-start: var(--spacing);
 }
 
+
 .section4 h2 {
     font-family: var(--font-family-h2);
     margin-inline-start: var(--spacing-less);
     margin-block-start: var(--spacing-less);
 }
+
 
 .section4 p {
     font-family: var(--font-family-body);
@@ -34,6 +37,7 @@
     margin-block-start: var(--spacing);
     font-size: 23px;
 }
+
 
 .section4 img {
     max-height: 3rem;
