@@ -121,15 +121,15 @@
         grid-row: 3/4;
     }
 
-    h1 {
+    .section4 h1 {
         padding-block: var(--spacing);
     }
 
-    h2 {
+    .section4 h2 {
         font-size: 2rem;
     }
 
-    p {
+    .section4 p {
         font-size: 1.8rem;
     }
 }

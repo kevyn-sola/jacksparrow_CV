@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="/style/pro_experience.css" />
     <title>Jack Sparrow CV</title>
     <script src="./script/header.js" defer></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
         <div class="head-fullscreen">
             <div class="bg-menu"></div>
@@ -61,19 +61,36 @@
     <main>
         <section class="section section1" id="profil">
             <div class="profil-jack">
-                <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow" />
+
+                <div class="img-icon-profil">
+                    <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow">
+                    <div class="permis">
+                        <img src="/img/icon-anchor.png" alt="Icone d'une ancre de bateau" id="ancre-bateau">
+                        <p> Permis Bateau </p>
+                    </div>
+                </div>
                 <div class="content-profil">
-                    <h2>Profil</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-                        minima harum, magnam itaque modi beatae animi pariatur esse
-                        consequuntur quo autem quis eius odit libero? Culpa, repudiandae,
-                        quis voluptatem voluptatum totam tenetur ad pariatur aperiam
-                        facilis beatae, neque ipsa assumenda.
+                    <h2>Capitaine Jack Sparrow</h2>
+                    <p>Seigneur pirate de la mer des Caraïbes, Née le 11 janvier 1693. <br>
+                        J’aime boire du rhum et séduire des femmes. <br>
+                        Toujours partant pour chercher quelque trésors surnaturel, rien de bon qu’une bonne quête à la
+                        recherche de richesse ! <br>
+                        Je suis particulièrement partisan du choix de la négociation plutôt que de faire parler les
+                        armes. <br>
+                        Certains vous diront que je suis un traitre mais ne faite pas attention à ce genre de calomnies.
+                        <br>
+                    </p>
+                    <p class="info-profil">
+                        Vous pouvez me retrouver à Nassau dans les Caraïbes <br>
+                        ou <br>
+                        Me contacter par perroquet voyageur de la compagnie Papagaio Livia en choisissant de remplir le
+                        formulaire à la fin de cette page. <br>
                     </p>
                 </div>
             </div>
-            <img id="signature" src="/img/c2635b48197b847d0d05a39561d74aea.png" alt="signature jack" />
+            <div class="sign_jack">
+                <img id="signature" src="/img/c2635b48197b847d0d05a39561d74aea.png" alt="signature jack" />
+            </div>
         </section>
         <div class="ba_pirates"></div>
         <section class="section section2" id="competences">
@@ -173,6 +190,7 @@
                     </p>
                 </div>
             </div>
+
         <div class="exp-quotes">
           <h2>Avis sur ma personne</h2>
           <div class="quotes-container" id="quotes-container1">
@@ -281,9 +299,9 @@
         <div class="lastImg"></div>
     </main>
     <footer>
-        <form action="" method="get" class="form-parchemin" id="contact">
+        <form action="" method="get" class="form-parchemin">
             <div class="form-input">
-                <legend>Allez mon gars... Contact moi!</legend>
+                <legend id="contact">Allez mon gars... Contact moi!</legend>
                 <label for="name">Ecrit ton nom!</label>
                 <input type="text" name="name" id="name" required placeholder="Name" />
             </div>
