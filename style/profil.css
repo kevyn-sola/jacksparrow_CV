@@ -6,6 +6,10 @@
     height: 300px;
 }
 
+.section1 {
+    width: 100vw;
+}
+
 #signature {
     width: 300px;
     height: 200px;
@@ -16,7 +20,7 @@
 .sign_jack {
     display: flex;
     justify-content: center;
-    padding-bottom: var(--spacing-more);
+    padding-block: var(--spacing-more);
 }
 
 .profil-jack {
@@ -24,6 +28,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.profil-jack h1 {
+    font-family: var(--font-family-h1);
+    font-size: var(--spacing-more);
+    padding-bottom: var(--spacing-more);
 }
 
 .img-icon-profil {

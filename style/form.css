@@ -53,6 +53,12 @@ legend {
     font-size: 2rem;
     color: var(--text-color2);
     padding: var(--spacing-less);
+    border-radius: 4px;
+}
+
+.form-btn:hover {
+    background-color: rgb(211, 50, 50);
+    transition: background-color 0.3s;
 }
 
 .form-btn-flex {
