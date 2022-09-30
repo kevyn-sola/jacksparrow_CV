@@ -269,6 +269,8 @@ header h1 {
     transform: rotate(-45deg) translate(25px);
 }
 
+/*======================MEDIA===================*/
+
 @media screen and (max-width:1000px) {
     .scroll-down-indicator {
         --scaling: 0.5;
@@ -279,8 +281,14 @@ header h1 {
     }
 
     .title {
+        top: 30px;
         left: 30px;
-    } 
+    }
+    .menu-burger {
+        top: 30px;
+        right: 20px;
+    }
+
 }
 
 @media screen and (min-width:1000px) {
@@ -340,6 +348,8 @@ header h1 {
         font-size: 1rem;
     }
 }
+
+/*===========================ANIMATION==================*/
 
 @keyframes top-line-anim-hover {
     from {
