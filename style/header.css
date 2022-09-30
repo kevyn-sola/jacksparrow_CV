@@ -1,7 +1,7 @@
 @import url(./root.css);
 
 #scale-ack {
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .head-fullscreen {
@@ -278,17 +278,8 @@ header h1 {
         height: calc(25vh + 10vw);
     }
 
-    h1 {
-        font-size: 2.5rem;
-
-    }
-
     .title {
         left: 30px;
-    }
-
-    #scale-ack {
-        font-size: 2rem;
     }
 }
 
@@ -312,16 +303,19 @@ header h1 {
         width: 50px;
     }
 
-    h1 {
+    header h1 {
         font-size: 5rem;
         transform: translate(0, 10px);
     }
 }
 
 @media screen and (max-width:430px) {
-    h1 {
+    header h1 {
         top: 50px;
         font-size: 2rem;
+    }
+    #scale-ack {
+        font-size: 1.3rem;
     }
 
     nav {
@@ -335,15 +329,14 @@ header h1 {
     .menu-burger {
         right: 10px;
     }
-
-    #scale-ack {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (max-width:300px) {
     header h1 {
-        font-size: 26px;
+        font-size: 1.4rem;
+    }
+    #scale-ack {
+        font-size: 1rem;
     }
 }
 
