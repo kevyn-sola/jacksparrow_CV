@@ -280,7 +280,7 @@ header h1 {
 
     .title {
         left: 30px;
-    }
+    } 
 }
 
 @media screen and (min-width:1000px) {
@@ -311,7 +311,6 @@ header h1 {
 
 @media screen and (max-width:430px) {
     header h1 {
-        top: 50px;
         font-size: 2rem;
     }
     #scale-ack {
@@ -324,9 +323,11 @@ header h1 {
 
     .title {
         left: 10px;
+        top: 20px;
     }
 
     .menu-burger {
+        top: 20px;
         right: 10px;
     }
 }
