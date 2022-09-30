@@ -3,6 +3,9 @@
 
 .section3 {
     width: 100vw;
+    background: url(../media/1200px-The_Pirate_Bay_logo_bw.png) var(--bg-color-section1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section3 > h2{
@@ -19,7 +22,7 @@
     grid-template-columns: 1fr 3fr;
     width: 100%;
     padding: var(--spacing);
-    margin-block-end: var(--spacing)
+    margin-block-end: var(--spacing);
 }
 
 .date {
