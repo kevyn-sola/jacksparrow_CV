@@ -45,23 +45,26 @@ section {
     min-height: 500px;
 }
 
-.ba_pirates {
-    background-image: url(/img/pirates-of-the-caribbean-dead-men-tell-no-tales-jack-sparrow-facebook-cover.jpg);
-    min-height: 300px;
-}
-
-.ba_pirates {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .lastImg {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.ba_pirates {
+    min-height: 600px;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 @media screen and (min-width: 760px) {
