@@ -52,12 +52,25 @@
 .experience {
     padding-inline-start: var(--spacing-more);
     font-family: var(--font-family-body);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .experience p{
     font-size: 1rem;
 }
-
+.experience p span{
+    font-family: var(--font-family-h1);
+    font-size: 1.2rem;
+}
+.experience hr {
+    width: 50px;
+    height: 1px;
+    margin-block-start: 5px;
+    margin-block-end: 12px;
+}
 .quotes-container{
     display: flex;
     justify-content: space-around;
