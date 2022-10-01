@@ -3,13 +3,16 @@
 - Projet: Réaliser un CV d'un personnage fictif via un site web
 
 ## To Do:
+!important : Uniformisation des polices des titles et background. 
 
 - root Done (Vérification des couleurs et de la fonts)  
     - Modification h1 / h2 / body font  
     - Responsive parts
-- Faire video de background ou alors prendre photo de secours.
+- Faire video de background ou alors prendre photo de secours. (DONE)
 - Copyright en footer
-- ajout de commentaire possible JS
+
+- ajout de commentaire possible #JS ou PhP
+    -> idée : button -> popup ("lâche ton com !") -> ajoute un commentaire à la suite des autres
 - blackmarket sur menu via shop alcohol
 
 ## Team:
