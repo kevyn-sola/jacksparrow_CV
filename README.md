@@ -3,7 +3,11 @@
 - Projet: Réaliser un CV d'un personnage fictif via un site web
 
 ## To Do:
-!important : Uniformisation des polices des titles et background. 
+
+!IMPORTANT : Uniformisation des polices des titles et background. 
+
+-> Modification des sections avec PHP.
+-> Raccord Php - DOM
 
 - root Done (Vérification des couleurs et de la fonts)  
     - Modification h1 / h2 / body font  
