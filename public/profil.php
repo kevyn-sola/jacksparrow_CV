@@ -1,6 +1,10 @@
 <?php
+require '../data/data.php'
 
+?>
 <div class="profil-jack">
+
+        foreach
 
                 <div class="img-icon-profil">
                     <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow">
