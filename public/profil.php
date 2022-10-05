@@ -22,8 +22,5 @@
 
 <div class="sign_jack">
     <img id="signature" src="<?= $data['profil']['signProfil'] ?>" alt="<?= $data['profil']['altSignProfil'] ?>" />
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> 88926bd (adjusting profil css)
+
