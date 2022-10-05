@@ -36,7 +36,7 @@ $data = [
             ],
 
             'skillO2' =>[
-
+                
                 'skillTitre2' => ['Tiens l\'alcool'],
                 'skilldesc2' => ['Santé !'],
             ],
