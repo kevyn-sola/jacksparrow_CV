@@ -51,7 +51,7 @@ section {
 }
  */
 .lastImg {
-    background-image: url(/img/jack-run.jpg);
+    background-image: url(../img/jack-run.jpg);
     min-height: 500px;
 }
 
@@ -116,6 +116,7 @@ section {
 
     font-size: 4.5rem;
     font-family: var(--font-family-h1);
+    color: var(--text-color2);
     
 }
 @media screen and (max-width: 900px) {

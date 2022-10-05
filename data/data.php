@@ -64,7 +64,7 @@ $data = [
         'Rapide' => [
 
             'classIconSkill' => 'icon-run',
-            'skilldesc' => 'Je cours plus vite qu\'une tribu de cannibales.',
+            'skilldesc' => 'Je cours assez vite.',
 
         ],
     ],
