@@ -94,26 +94,15 @@ $data = [
     ],
 
     'Loisirs' => [
-
-        "hobby" => [
-
-            'Pecher' => 'Kraken, merle, sardine.',
-        ],
-
-        "hobby" => [
-
-            'Escrime' => 'J\'aime la bagarre.',
-        ],
-
-        "hobby" => [
-
-            'Tir sportif' => 'Pan, pan, pan.',
-        ],
-
-        "hobby" => [
-
-            'Rhum' => 'Juste le boire, pas le distiller.',
-        ],
-
+        'Pecher' =>
+        ['Kraken, merle, sardine.', '../assets/img/kraken.png', 'an image of a kraken'],
+        'Escrime' =>
+        ['J\'aime la bagarre.', '../assets/img/swords.png', 'an image of a sword'],
+        'Tir sportif' =>
+        ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket'],
+        'Rhum' =>
+        ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel'],
+        'Séduction' =>
+        ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart'],
     ],
 ];
