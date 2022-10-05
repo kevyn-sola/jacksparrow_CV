@@ -64,7 +64,7 @@ $data = [
         'Rapide' => [
 
             'classIconSkill' => 'icon-run',
-            'skilldesc' => 'Je cours plus vite qu\'une tribu de cannibales.',
+            'skilldesc' => 'Je cours assez vite.',
 
         ],
     ],
@@ -102,7 +102,6 @@ $data = [
         '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
 
     ],
-    
 
     'Loisirs' => [
         'Pecher' =>

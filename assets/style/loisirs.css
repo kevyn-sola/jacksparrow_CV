@@ -1,7 +1,7 @@
 @import url(./root.css);
 @import url(/style/style.css);
 
-.section4 {
+.section4  {
     background-image: url(../img/bg_brown_alone1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     width: 100vw;
 }
 
-.loisirs {
+.loisirs {    
     display: flex;
     flex-direction: column;
     justify-content: space-around;

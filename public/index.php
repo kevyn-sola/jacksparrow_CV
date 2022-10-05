@@ -78,11 +78,12 @@
 
 
         <section class="section section2" id="competences">
-            <?php require 'skill_Data.php'; ?>
+            <div class="skill">
+                <?php require 'skill_Data.php'; ?>
+            </div>
         </section>
 
-
-
+        
         <div class="ba_pirates">
             <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
@@ -97,12 +98,19 @@
 
 
         <div class="ba_pirates"></div>
+        <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
+        </video>
+
         <section class="section section4">
+            <div class="planche-title">
+                <h1>Loisirs</h1>
+            </div>
             <h1 id="loisirs">Loisirs</h1>
             <div class="loisirs">
                 <?php require 'loisirs.php' ?>
             </div>
         </section>
+
         <div class="lastImg"></div>
     </main>
 
