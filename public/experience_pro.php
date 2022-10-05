@@ -1,23 +1,4 @@
 <?php require '../data/data.php' ?>
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/style/root.css" />
-    <link rel="stylesheet" href="../assets/style/style.css" />
-    <link rel="stylesheet" href="../assets/style/form.css" />
-    <link rel="stylesheet" href="../assets/style/loisirs.css" />
-    <link rel="stylesheet" href="../assets/style/profil.css" />
-    <link rel="stylesheet" href="../assets/style/header.css" />
-    <link rel="stylesheet" href="../assets/style/skill.css">
-    <link rel="stylesheet" href="../assets/style/pro_experience.css" />
-    <title>Jack Sparrow CV</title>
-    <script src="../assets/script/header.js" defer></script>
-</head>
-
 
 <img src="../assets/img/title_experience.png" class="section-experience-title">
 <div class="experience-pro-container">
