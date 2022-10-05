@@ -53,6 +53,7 @@ legend {
     font-size: 1.5rem;
     padding: var(--spacing-less);
     background: transparent;
+    line-height: 1.5;
     font-family: var(--font-family-h2);
 }
 
@@ -103,6 +104,12 @@ footer a {
     text-decoration: none;
     color: var(--text-color2);
     font-size: 1rem;
+}
+
+footer a:hover {
+    background-color: black;
+    scale: 120%;
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 760px) {

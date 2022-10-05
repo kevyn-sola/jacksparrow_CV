@@ -61,13 +61,13 @@
     </header>
     <main>
 
-
-
+        <div class="border-top"></div>
+        
         <section class="section section1" id="profil">
             <?php require 'profil.php'; ?>
         </section>
 
-
+        <div class="border-top"></div>
 
 
         <div class="ba_pirates">
@@ -114,10 +114,10 @@
     <footer>
         <h2>Github:</h2>
         <div class="links">
-            <a href="https://github.com/Planger45" target="_blank">Kevyn SOLA</a>
             <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
             <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
             <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
         </div>
     </footer>
 
