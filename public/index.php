@@ -76,7 +76,11 @@
 
 
 
-        <!-- Ò -->
+        <section class="section section2" id="competences">
+            <div class="skill">
+                <?php require 'skill_Data.php'; ?>
+            </div>
+        </section>
 
 
 

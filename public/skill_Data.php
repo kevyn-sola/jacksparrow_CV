@@ -7,21 +7,21 @@ require '../data/data.php'; ?>
 
 <div class="competences-section">
     <?php foreach ($data['competences'] as $title => $objects) : ?>
-        <div class="skill"></div>
-        <div class="competences-container">
-            <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
-            <div class="skill-cards-container" id="cards-container1">
-                <div class="skill-cards">
-                    <div class="skill-text-container">
-                        <h2><?= $title ?></h2>
-                        <p><?= $objects['skilldesc'] ?></p>
+        <div class="skill">
+            <div class="competences-container">
+                <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
+                <div class="skill-cards-container" id="cards-container1">
+                    <div class="skill-cards">
+                        <div class="skill-text-container">
+                            <h2><?= $title ?></h2>
+                            <p><?= $objects['skilldesc'] ?></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-</div>
-<?php endforeach ?>
+        </div>
+    <?php endforeach ?>
 </div>
 
 

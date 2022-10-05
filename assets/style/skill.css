@@ -1,4 +1,4 @@
-/* @import url(./root.css);
+@import url(./root.css);
 @import url(/style/style.css);
 
 .skill  {
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 85%;
+    height: 80%;
     margin-block-end: var(--spacing-more);
 }
 
@@ -121,7 +121,7 @@
     }
 }
 
- */
+
 
 
 /* .section2 {
