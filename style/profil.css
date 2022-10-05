@@ -70,8 +70,13 @@
     flex-direction: column;
 }
 
-.content-profil h2 {
+.content-profil h1 {
     padding-block-end: var(--spacing-more);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
 .info-profil {
