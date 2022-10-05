@@ -36,7 +36,7 @@ $data = [
             'classIconSkill' => 'icon-fighter',
             'skilldesc' => '23 Batailles à mon actif !',
 
-    ],
+        ],
 
         'Tiens l\'alcool' => [
 
@@ -102,12 +102,6 @@ $data = [
         '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
 
     ],
-
-            'skillTitre5' => 'Rapide',
-            'skilldesc5' => 'Je cours plus vite qu\'une tribu de cannibales.'
-        ],
-    ],
-
 
     'experiencesProfessionnelles' => [
 
