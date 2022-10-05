@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../assets/style/pro_experience.css" />
     <title>Jack Sparrow CV</title>
     <script src="../assets/script/header.js" defer></script>
+
 </head>
 
 <body>
@@ -61,9 +62,11 @@
     <main>
 
 
+
         <section class="section section1" id="profil">
             <?php require 'profil.php'; ?>
         </section>
+
 
 
 
@@ -73,9 +76,11 @@
         </div>
 
 
+
         <section class="section section2" id="competences">
             <?php require 'skill_Data.php'; ?>
         </section>
+
 
 
         <div class="ba_pirates">
@@ -84,9 +89,11 @@
         </div>
 
 
+
         <section class="section section3" id="experience-pro">
             <?php require 'experience_pro.php' ?>
         </section>
+
 
 
         <div class="ba_pirates"></div>
@@ -162,6 +169,7 @@
     <footer>
         <?php require 'form.php'; ?>
     </footer>
+
 
 
 

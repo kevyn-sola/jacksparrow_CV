@@ -22,6 +22,7 @@ require '../data/data.php'; ?>
 
 
 
+
 <!--  <h1>Competences</h1>
 <div class="competences-container">
 

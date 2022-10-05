@@ -3,9 +3,9 @@
 $data = [
     'profil' => [
 
-        'imgProfil' => '/img/jack-profil.png',
+        'imgProfil' => '../assets/img/jack-profil.png',
         'altImgProfil' => 'Photo de Jack Sparrow',
-        'iconProfil' => '/img/icon-anchor.png',
+        'iconProfil' => '../assets/img/icon-anchor.png',
         'altIconProfil' => 'Icone d\'une ancre de bateau',
         'permis' => 'Permis Bateau',
         'titreProfil' => 'Capitaine Jack Sparrow',
@@ -21,7 +21,7 @@ $data = [
                                 ou <br>
                                 Me contacter par perroquet voyageur de la compagnie Papagaio Livia en choisissant de remplir le
                                 formulaire à la fin de cette page. <br>',
-        'signProfil' => '/img/c2635b48197b847d0d05a39561d74aea.png',
+        'signProfil' => '../assets/img/c2635b48197b847d0d05a39561d74aea.png',
         'altSignProfil' => 'signature jack',
 
     ],
@@ -105,23 +105,30 @@ $data = [
 
         "hobby01" => [
 
+
             'hobbyTitle' => 'Pecher',
             'hobbyDescr' => 'Kraken, merle, sardine.',
+
         ],
 
         "hobby02" => [
 
+
             'hobbyTitle' => 'Escrime',
             'hobbyDescr' => 'J\'aime la bagarre.',
+
         ],
 
         "hobby03" => [
 
+
             'hobbyTitle' => 'Tir sportif',
             'hobbyDescr' => 'Pan, pan, pan.',
+
         ],
 
         "hobby04" => [
+
 
             'hobbyTitle' => 'Rhum',
             'hobbyDescr' => 'Juste le boire, pas le distiller.',
@@ -137,4 +144,5 @@ $data = [
         'label-email' => 'Ajoutes ton adresse postale numerique!',
         'label-message' => 'Dis moi ce que tu desires!',
     ],
+
 ];
