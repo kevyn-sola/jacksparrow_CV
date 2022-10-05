@@ -1,10 +1,6 @@
 @import url(./root.css);
 @import url(./style.css);
 
-.profil-jack img {
-    width: 300px;
-    height: 300px;
-}
 
 .section1 {
     width: 100vw;
@@ -15,16 +11,25 @@
 }
 
 #signature {
-    width: 300px;
-    height: 200px;
-    padding-top: 2rem;
-    margin-block-start: 2rem;
+    /* max-width: 70%; */
+    width: 40%;
+    height: 40%;
 }
 
 .sign_jack {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    
     padding-block: var(--spacing-more);
+    margin-block-start: var(--spacing);
+
+    background: url(../img/plancheBois4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .profil-jack {
@@ -37,7 +42,8 @@
 .profil-jack h1 {
     font-family: var(--font-family-h1);
     font-size: var(--spacing-more);
-    padding-bottom: var(--spacing-more);
+    padding-block-start: var(--spacing-more);
+    padding-block-end: var(--spacing-less);
 }
 
 .img-icon-profil {
@@ -47,7 +53,10 @@
     align-items: center;
     padding-bottom: var(--spacing-more);
 }
-
+.pp-profil{
+    width: 300px;
+    height: 450px;
+}
 .permis {
     display: flex;
     justify-content: center;
@@ -56,7 +65,8 @@
 }
 
 .permis p {
-    font-family: var(--font-family-h2);
+    font-family: var(--font-family-h1);
+    font-size: 1rem;
 }
 
 .img-icon-profil #ancre-bateau {
@@ -90,10 +100,13 @@
 
     #signature {
         max-width: 30%;
-        width: 30%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
         padding-top: 0;
         padding-bottom: 2rem;
+    }
+    .sign_jack{
+        max-width: 70%;
     }
 
     .section1 {

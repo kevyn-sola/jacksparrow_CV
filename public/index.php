@@ -100,65 +100,7 @@
         <section class="section section4">
             <h1 id="loisirs">Loisirs</h1>
             <div class="loisirs">
-                <div class="loisirs-cards-container" id="cards-container1">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Pecher</h2>
-                            <p>Kraken, merle, sardine.</p>
-                        </div>
-                        <img src="img/kraken.png" alt="an image of a kraken" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container2">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Escrime</h2>
-                            <p>J'aime la bagarre.</p>
-                        </div>
-                        <img src="/img/swords.png" alt="2 katanas crossing each other" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container3">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Tir sportif</h2>
-                            <p>Pan, pan, pan.</p>
-                        </div>
-                        <img src="img/musket.png" alt="an image of a musket" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container4">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Rhum</h2>
-                            <p>Juste le boire, pas le distiller.</p>
-                        </div>
-                        <img src="img/barrel.png" alt="image of a barrel" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container5">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Seduction</h2>
-                            <p>Des fois ça marche.</p>
-                        </div>
-                        <img src="img/heart.png" alt="image of a heart" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
+                <?php require 'loisirs.php' ?>
             </div>
         </section>
         <div class="lastImg"></div>

@@ -2,7 +2,7 @@
 
 <div class="profil-jack">
     <div class="img-icon-profil">
-        <img src="<?= $data['profil']['imgProfil'] ?>" alt="<?= $data['profil']['altImgProfil'] ?>">
+            <img class="pp-profil" src="<?= $data['profil']['imgProfil'] ?>" alt="<?= $data['profil']['altImgProfil'] ?>">
 
         <div class="permis">
             <img src="<?= $data['profil']['iconProfil'] ?>" alt="<?= $data['profil']['altIconProfil'] ?>" id="ancre-bateau">
@@ -22,5 +22,4 @@
 
 <div class="sign_jack">
     <img id="signature" src="<?= $data['profil']['signProfil'] ?>" alt="<?= $data['profil']['altSignProfil'] ?>" />
-
 </div>
