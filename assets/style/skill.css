@@ -1,16 +1,12 @@
-@import url(./root.css);
+/* @import url(./root.css);
 @import url(/style/style.css);
 
-
-.section2 {
+.skill  {
     background-image: url(../img/bg_brown_alone1.png);
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-}
-
-.competences-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -118,15 +114,14 @@
         font-size: 1.8rem;
     }
 
-    .skill-text-container {
+    .loisirs-text-container {
         display: flex;
         flex-direction: column;
         padding : var(--spacing);
     }
 }
 
-
-
+ */
 
 
 /* .section2 {

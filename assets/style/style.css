@@ -41,17 +41,15 @@ section {
     color: var(--text-color);
 }
 
-<<<<<<< HEAD
-.section2 {
+
+/* .section2 {
     background-image: url(../img/bg_brown_alone1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
 }
-=======
-
->>>>>>> 6d1926b828dca3955a92f141e790e67062c3eb1d
+ */
 .lastImg {
     background-image: url(/img/jack-run.jpg);
     min-height: 500px;
