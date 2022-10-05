@@ -1,6 +1,8 @@
 <?php require '../data/data.php' ?>
 
-<img src="../assets/img/title_experience.png" class="section-experience-title">
+<div class="planche-title">
+    <h1>Experiences</h1>
+</div>
 <div class="experience-pro-container">
     <?php foreach($data['experiencesProfessionnelles'] as $date => $experience) : ?>
     <div class="date">

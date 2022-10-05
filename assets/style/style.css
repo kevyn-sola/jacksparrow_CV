@@ -27,6 +27,7 @@ h2 {
 section {
     color: var(--text-color2);
     padding: var(--spacing);
+    width: 100vw;
 }
 
 .section1,
@@ -70,5 +71,83 @@ section {
 @media screen and (min-width: 760px) {
     .lastImg {
         min-height: 1080px;
+    }
+}
+
+.planche-title{
+    width: 830px;
+    height: 310px;
+    
+    background: url(../img/plancheBois\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    transform: rotate(-5deg);
+
+    margin-block-start: -180px;
+    margin-block-end: var(--spacing-more);
+    margin-inline: auto;
+
+    z-index:3;
+}
+.planche-title h1 {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4.5rem;
+    font-family: var(--font-family-h1);
+    
+}
+@media screen and (max-width: 900px) {
+    .planche-title{
+        width: 630px;
+        height: 210px;
+
+        margin-block-start: -120px;
+    }
+    .planche-title h1 {
+        font-size: 3rem;
+    } 
+}
+@media screen and (max-width: 680px) {
+    .planche-title{
+        width: 415px;
+        height: 155px;
+
+        margin-block-start: -100px;
+    }
+    .planche-title h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .planche-title{
+        width: 315px;
+        height: 105px;
+
+        margin-block-start: -60px;
+    }
+    .planche-title h1 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 330px) {
+    .planche-title{
+        width: fit-content;
+        background: transparent;
+    }
+    .planche-title h1 {
+        font-size: 1.5rem;
     }
 }
