@@ -16,10 +16,10 @@
 
 @font-face {
     font-family: 'treasureMaps';
-    src: url(/fonts/TreasureMapDeadhand-yLA3.ttf);
+    src: url(../fonts/TreasureMapDeadhand-yLA3.ttf);
 }
 
 @font-face {
     font-family: 'blackpearl';
-    src: url(/fonts/Blackpearl-vPxA.ttf);
+    src: url(../fonts/Blackpearl-vPxA.ttf);
 }
