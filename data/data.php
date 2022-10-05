@@ -10,7 +10,7 @@ $data = [
         'permis' => 'Permis Bateau',
         'titreProfil' => 'Capitaine Jack Sparrow',
         'description' => 'Seigneur pirate de la mer des Caraïbes, Née le 11 janvier 1693. <br>
-                            J\’aime boire du rhum et séduire des femmes. <br>
+                            J’aime boire du rhum et séduire des femmes. <br>
                             Toujours partant pour chercher quelque trésors surnaturel, rien de bon qu’une bonne quête à la
                             recherche de richesse ! <br>
                             Je suis particulièrement partisan du choix de la négociation plutôt que de faire parler les
