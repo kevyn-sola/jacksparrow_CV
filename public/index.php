@@ -71,7 +71,7 @@
 
 
         <div class="ba_pirates">
-            <video id="background-video" src="/video/video_bg_jack.mp4" autoplay loop muted>
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
 
@@ -84,7 +84,7 @@
 
 
         <div class="ba_pirates">
-            <video id="background-video" src="/video/video_bg.mp4" autoplay loop muted>
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
 
@@ -169,7 +169,13 @@
     <footer>
         <?php require 'form.php'; ?>
     </footer>
-
+    <div class="copyright">
+        <h2>Github:</h2>
+            <a href="https://github.com/Planger45" target="_blank">Kevyn SOLA</a>
+            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
+            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
+            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+    </div>
 
 
 
