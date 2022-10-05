@@ -80,64 +80,24 @@
     padding : var(--spacing-more);
 }
 
-.plank3{
+.plank{
     width: 90%;
     margin:0;
     margin-block-end: -150px;
     position :relative;
     z-index: 0;
 }
-
-.plank7{
-    width: 100%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-}
-
-.plank4{
-    width: 90%;
-    margin:0;
-    margin-block-end: -130px;
-    position :relative;
-    z-index: 0;
-}
-
-.plank5{
-    width: 90%;
-    margin:0;
-    margin-block-end: -100px;
-    position :relative;
-    z-index: 0; 
-}
-
-.plank6{
-    width: 90%;
-    margin:0;
-    margin-block-end: -90px;
-    position :relative;
-    z-index: 0; 
-}
-
 
 
 @media screen and (max-width: 560px) {
-    .plank3{
+    .plank{
         margin-block-end: -95px;
     }
 
-    .plank4{
-        margin-block-end: -100px;
-    }
 }
 
 @media screen and (max-width: 665px)and (min-width:560px) {
-    .plank3{
-        margin-block-end: -130px;
-    }
-
-    .plank4{
+    .plank{
         margin-block-end: -130px;
     }
 }

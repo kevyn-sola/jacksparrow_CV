@@ -5,40 +5,44 @@ require '../data/data.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="../assets/style/root.css" />
     <link rel="stylesheet" href="../assets/style/style.css" />
+    <link rel="stylesheet" href="../assets/style/form.css" />
     <link rel="stylesheet" href="../assets/style/loisirs.css" />
-    <title>Jack Sparrow CV</title>
-    <script src="../script/header.js" defer></script>
+
 </head>
+
 
 <body>
     <section class="section section4">
-        <img src="../assets/img/title_loisirs.png" id="loisirs">
         <div class="loisirs">
             <div class=loisirs-container>
-                <img src="../assets/img/plancheBois3.png" alt="" class='plank3'>
+                <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
                 <div class="loisirs-cards-container" id="cards-container1">
                     <div class="loisirs-cards">
                         <div class="loisirs-text-container">
-                            <h2>Pecher</h2>
-                            <p>Kraken, merle, sardine.</p>
+                            <?php
+                            foreach ($data['Loisirs'] as $hobby => $hobbies) :
+                                foreach ($hobbies as $hobbyTitle => $hobbyContent) : ?>
+                                    <h2><?= $hobbyTitle ?></h2>
+                                    <p><?= $hobbyContent ?></p>
+                                <?php endforeach ?>
+                            <?php endforeach ?>
                         </div>
                         <img src="../assets/img/kraken.png" alt="an image of a kraken" class="picto" />
-
-
                     </div>
                 </div>
             </div>
 
             <div class=loisirs-container>
-                <img src="../assets/img/plancheBois7.png" alt="" class='plank7'>
+                <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
                 <div class="loisirs-cards-container" id="cards-container2">
                     <div class="loisirs-cards">
                         <div class="loisirs-text-container">
@@ -51,7 +55,7 @@ require '../data/data.php';
             </div>
 
             <div class=loisirs-container>
-                <img src="../assets/img/plancheBois4.png" alt="" class='plank4'>
+                <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
                 <div class="loisirs-cards-container" id="cards-container3">
                     <div class="loisirs-cards">
                         <div class="loisirs-text-container">
@@ -64,7 +68,7 @@ require '../data/data.php';
             </div>
 
             <div class=loisirs-container>
-                <img src="../assets/img/plancheBois5.png" alt="" class='plank5'>
+                <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
                 <div class="loisirs-cards-container" id="cards-container4">
                     <div class="loisirs-cards">
                         <div class="loisirs-text-container">
@@ -77,7 +81,7 @@ require '../data/data.php';
             </div>
 
             <div class=loisirs-container>
-                <img src="../assets/img/plancheBois6.png" alt="" class='plank6'>
+                <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
                 <div class="loisirs-cards-container" id="cards-container5">
                     <div class="loisirs-cards">
                         <div class="loisirs-text-container">
