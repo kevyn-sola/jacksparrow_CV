@@ -6,7 +6,7 @@ require 'data.php'
             <div class="competences-container">
             <?php  foreach ($competence as $skills => $skill){ ?>
                 <div class="competences">
-                    foreach
+                  <?php  foreach ($skill as $info)
 
                 </div>
 
