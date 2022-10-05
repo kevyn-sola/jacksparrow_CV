@@ -85,10 +85,10 @@ $data = [
                         ],
     'avis' => [
                  
-                         '../img/legolas.jpg' => ['William Turner' => 'Cet homme est le meilleur arch... euh tireur que j\'ai rencontré de ma vie d\'elf... euh de pirate.'],
-                         '../img/barbossa.jpeg' => ['Hector Barbossa' => 'Je n\'ai jamais aussi bien vécu une mutinerie qu\'avec Jack Sparrow !'],
-                         '../img/elizabeth.jpg' => ['Elizabeth Swann' => 'Il ne s\'est jamais rien passé entre Jack et moi et il ne se passera jamais rien !!'],
-                         '../img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
+                         '../assets/img/legolas.jpg' => ['William Turner' => 'Cet homme est le meilleur arch... euh tireur que j\'ai rencontré de ma vie d\'elf... euh de pirate.'],
+                         '../assets/img/barbossa.jpeg' => ['Hector Barbossa' => 'Je n\'ai jamais aussi bien vécu une mutinerie qu\'avec Jack Sparrow !'],
+                         '../assets/img/elizabeth.jpg' => ['Elizabeth Swann' => 'Il ne s\'est jamais rien passé entre Jack et moi et il ne se passera jamais rien !!'],
+                         '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
                  
                      ],
 
