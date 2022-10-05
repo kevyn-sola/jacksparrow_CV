@@ -95,6 +95,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates" />
             </div>
         </div>
+        <div class="copyright">
+            <h2>Github:</h2>
+                <a href="https://github.com/Planger45" target="_blank">Kevyn SOLA</a>
+                <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
+                <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
+                <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+            </div>
     </form>
 </body>
 
