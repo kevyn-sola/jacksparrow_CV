@@ -41,6 +41,13 @@ section {
     color: var(--text-color);
 }
 
+.section2 {
+    background-image: url(../img/bg_brown_alone1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}
 .lastImg {
     background-image: url(/img/jack-run.jpg);
     min-height: 500px;
