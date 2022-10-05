@@ -72,6 +72,7 @@ $data = [
 
     'experiencesProfessionnelles' => [
 
+
         '1634 - 1640' => [
             'Capitaine' => 'Capitaine du Black Pearl. Pillage & recherche de trésors en tout genre !'
         ],
@@ -92,6 +93,7 @@ $data = [
         ],
 
     ],
+
     'avis' => [
 
         '../assets/img/legolas.jpg' => ['William Turner' => 'Cet homme est le meilleur arch... euh tireur que j\'ai rencontré de ma vie d\'elf... euh de pirate.'],

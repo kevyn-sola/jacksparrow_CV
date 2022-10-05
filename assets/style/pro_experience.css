@@ -1,20 +1,15 @@
 @import url(./root.css);
 @import url(/style.css);
 
-
-.section-experience-title{
-    width: 250px;
-    margin-inline: var(--spacing-more);
-}   
-
 .section3 {
     width: 100vw;
-
     background: url(../media/1200px-The_Pirate_Bay_logo_bw.png) var(--bg-color-section1);
     background-repeat: no-repeat;
     background-size: cover;
 
     padding: var(--spacing-more);
+
+    
 }
 
 .section3 > h2{
@@ -29,7 +24,7 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 3fr;
-    width: 100vw;
+    width: 100%;
     padding: var(--spacing);
     margin-block-end: var(--spacing);
 }
@@ -75,9 +70,17 @@
 
 .experience hr,
 .exp-quotes hr {
+    background-color: var(--text-color2);
+    border: none;
     width: 50px;
     height: 1px;
+    
+}
+.experience hr{
     margin-block-end: var(--spacing-less);
+}
+.exp-quotes hr{
+    margin-block-start: var(--spacing-less); 
 }
 
 .img-quotes-container:hover hr {
@@ -106,7 +109,6 @@
 
 .img-quotes-container{
     display: flex;
-    
     padding: var(--spacing);
 }
 
@@ -134,14 +136,26 @@
     margin-inline-end: var(--spacing);
 }
 
+/*==================MEDIA QUERIES==================*/
 @media screen and (min-width: 640px){
 
     .experience-pro-container{
         max-width: 900px;
         margin-inline: auto;
     }
-
-    
-
 }
     
+@media screen and (max-width: 450px) {
+    .section3{
+        padding: 0;
+    }
+    .img-quotes-container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .quotes-pic{
+        width: 7rem;
+        height: 7rem;
+        margin: auto;
+    }
+}

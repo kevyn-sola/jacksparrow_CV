@@ -1,6 +1,5 @@
 <?php require '../data/data.php' ?>
 
-
 <div class="profil-jack">
     <div class="img-icon-profil">
         <img src="<?= $data['profil']['imgProfil'] ?>" alt="<?= $data['profil']['altImgProfil'] ?>">
