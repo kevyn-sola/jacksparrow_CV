@@ -1,17 +1,5 @@
 <?php
 
-$data= [
-    'form' => [
-
-        'legend' => 'Allez mon gars... Contact moi!',
-        'label-firstname' => 'Ecris ton prénom!',
-        'label-lastname' => 'Ecris ton nom!',
-        'label-email' => 'Ajoutes ton adresse postal numerique!',
-        'label-message' => 'Dit moi ce que tu desires!',
-    ],
-];
-
-
 $contactForm['firstname'] = '';
 $contactForm['lastname'] = '';
 $contactForm['email'] = '';
@@ -50,17 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form php</title>
-</head>
-
-<body>
     <form action="" method="post" class="form-parchemin">
         <?php if (!empty($errors)): ?>
             <ul>
@@ -101,8 +78,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
                 <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
                 <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
-            </div>
+        </div>
     </form>
-</body>
-
-</html>
