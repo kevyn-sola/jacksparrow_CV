@@ -1,28 +1,28 @@
 <?php
-require '../data/data.php';
+require '../data/data.php'; ?>
 
- foreach($data as $competences){ ?>
-         <h1> <?= $competences ?> </h1>
+
+         <h1> Competences </h1>
             <div class="competences-container">
-            <?php  foreach($competences as $competence => $skills){ ?>
                 <div class="competences">
-                  <?php  foreach($skills as $skill) ?>
-                  <div class='<?= $skill['classIconSkill']?>' >
-                    <h2><?= $skill['skillTitre']?></h2>
-                    <p><?= $skill['skilldesc']?></p>
+                    <?php foreach($data['competences'] as $title => $objects): ?> 
+                            <div class='<?= $objects['classIconSkill'] ?>'></div>
+                            <h2><?= $title ?></h2>
+                            <p><?= $objects['skilldesc']?></p>
+                        <?php endforeach ?>
+                    
                 </div>
-
-                </div>
-
-            <?php } ?>
-
-
-<?php } ?>
-</div>
+            </div>
 
 
 
-<h1>Competences</h1>
+
+
+
+
+
+
+<!--  <h1>Competences</h1>
 <div class="competences-container">
 
     <div class="competences">
@@ -51,4 +51,4 @@ require '../data/data.php';
         <p> Je cours plus vite qu'une tribu de cannibales.</p>
     </div>
 </div>
-</div>
+</div>  -->
