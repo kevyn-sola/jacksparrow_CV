@@ -31,32 +31,37 @@ $data = [
 
             'skillO1' =>[   
                 
-                'skillTitre1' => ['Bagarreur'],
-                'skilldesc1' => ['23 Batailles à mon actif !'],
+                'classIconSkill' => ['icon-fighter'],
+                'skillTitre' => ['Bagarreur'],
+                'skilldesc' => ['23 Batailles à mon actif !'],
             ],
 
             'skillO2' =>[
 
-                'skillTitre2' => ['Tiens l\'alcool'],
-                'skilldesc2' => ['Santé !'],
+                'classIconSkill' => ['icon-rhum'],
+                'skillTitre' => ['Tiens l\'alcool'],
+                'skilldesc' => ['Santé !'],
             ],
 
             'skillO3' =>[   
                  
-                'skillTitre3' => ['Vol/Pillage'],
-                'skilldesc3' => ['Quel pirate n\'aime pas les trésors ?'],
+                'classIconSkill' => ['icon-pillage'],
+                'skillTitre' => ['Vol/Pillage'],
+                'skilldesc' => ['Quel pirate n\'aime pas les trésors ?'],
             ],
 
             'skillO4' =>[ 
 
-                'skillTitre4' => ['Management'],
-                'skilldesc4' => ['Capitaine sur une dizaines de navires.'],
+                'classIconSkill' => ['icon-management'],
+                'skillTitre' => ['Management'],
+                'skilldesc' => ['Capitaine sur une dizaines de navires.'],
             ],
 
             'skillO5' =>[ 
 
-                'skillTitre5' => ['Rapide'],
-                'skilldesc5' => ['Je cours plus vite qu\'une tribu de cannibales.'],
+                'classIconSkill' => ['icon-run'],
+                'skillTitre' => ['Rapide'],
+                'skilldesc' => ['Je cours plus vite qu\'une tribu de cannibales.'],
             ],
                     ],   
                     

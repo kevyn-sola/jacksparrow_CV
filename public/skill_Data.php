@@ -1,12 +1,16 @@
 <?php
-require 'data.php'
+require '../data/data.php'
 
- foreach ($data as $competences => $competence){ ?>
-         <h1> <?= $competence ?> </h1>
+ foreach ($data as $competences ){ ?>
+         <h1> <?= $competences ?> </h1>
             <div class="competences-container">
-            <?php  foreach ($competence as $skills => $skill){ ?>
+            <?php  foreach ($competences as $competence => $skills){ ?>
                 <div class="competences">
-                  <?php  foreach ($skill as $info)
+                  <?php  foreach ($skills as $skill) ?>
+                  <div class='<?= $skill['classIconSkill']?>' >
+                    <h2><?= $skill['skillTitre']?></h2>
+                    <p><?= $skill['skilldesc']?></p>
+                </div>
 
                 </div>
 
