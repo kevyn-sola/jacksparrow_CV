@@ -3,7 +3,7 @@
 $data = [
     'profil' => [
 
-        'imgProfil' => '../assets/img/jack-profil.png',
+        'imgProfil' => '../assets/img/border_jack.png',
         'altImgProfil' => 'Photo de Jack Sparrow',
         'iconProfil' => '../assets/img/icon-anchor.png',
         'altIconProfil' => 'Icone d\'une ancre de bateau',
