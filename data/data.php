@@ -29,35 +29,45 @@ $data = [
 
     'competences' => [
 
+
             'Bagarreur' =>[   
                 'classIconSkill' => 'icon-fighter',
                 'skilldesc' => '23 Batailles à mon actif !',
+
             ],
 
             'Tiens l\'alcool' =>[
 
+
                 'classIconSkill' => 'icon-rhum',
                 'skilldesc' => 'Santé !',
+
             ],
 
             'Vol/Pillage' =>[   
                  
+
                 'classIconSkill' => 'icon-pillage',
                 'skilldesc' => 'Quel pirate n\'aime pas les trésors ?',
+
+
             ],
 
             'Management' =>[ 
 
+
                 'classIconSkill' => 'icon-management',
                 'skilldesc' => 'Capitaine sur une dizaines de navires.',
+
             ],
 
             'Rapide' =>[ 
 
                 'classIconSkill' => 'icon-run',
                 'skilldesc' => 'Je cours plus vite qu\'une tribu de cannibales.',
+
             ],
-                    ],   
+    ],   
                     
     
     'experiencesProfessionnelles' => [
