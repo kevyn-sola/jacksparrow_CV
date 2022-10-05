@@ -77,7 +77,7 @@ $data = [
                              'Undefined' => 'Mort - RIP moi ! 🪦'
                          ],
                          '1646' => [
-                             'Résurrection' => 'Plus mort !'
+                             'Resurrection' => 'Plus mort !'
                          ],
                          '1649 - 1652' => [
                              'Capitaine' => 'Recherche de la Fontaine de Jouvence.'
