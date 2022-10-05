@@ -41,6 +41,7 @@ section {
     color: var(--text-color);
 }
 
+
 .lastImg {
     background-image: url(/img/jack-run.jpg);
     min-height: 500px;
@@ -78,7 +79,7 @@ section {
     width: 830px;
     height: 310px;
     
-    background: url(../img/plancheBois\ 2.png);
+    background: url(../img/plancheBois2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
