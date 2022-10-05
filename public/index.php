@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../assets/style/pro_experience.css" />
     <title>Jack Sparrow CV</title>
     <script src="../assets/script/header.js" defer></script>
+
 </head>
 
 <body>
@@ -59,89 +60,40 @@
         </div>
     </header>
     <main>
+
+
+
         <section class="section section1" id="profil">
-            <div class="profil-jack">
-
-                <div class="img-icon-profil">
-                    <img src="/img/jack-profil.png" alt="Photo de Jack Sparrow">
-                    <div class="permis">
-                        <img src="/img/icon-anchor.png" alt="Icone d'une ancre de bateau" id="ancre-bateau">
-                        <p> Permis Bateau </p>
-                    </div>
-                </div>
-                <div class="content-profil">
-                    <h1>Capitaine Jack Sparrow</h1>
-                    <p>Seigneur pirate de la mer des Caraïbes, Née le 11 janvier 1693. <br>
-                        J’aime boire du rhum et séduire des femmes. <br>
-                        Toujours partant pour chercher quelque trésors surnaturel, rien de bon qu’une bonne quête à la
-                        recherche de richesse ! <br>
-                        Je suis particulièrement partisan du choix de la négociation plutôt que de faire parler les
-                        armes. <br>
-                        Certains vous diront que je suis un traitre mais ne faite pas attention à ce genre de calomnies.
-                        <br>
-
-                    </p>
-                    <p class="info-profil">
-                        Vous pouvez me retrouver à Nassau dans les Caraïbes <br>
-                        ou <br>
-                        Me contacter par perroquet voyageur de la compagnie Papagaio Livia en choisissant de remplir le
-                        formulaire à la fin de cette page. <br>
-
-
-
-                    </p>
-                </div>
-            </div>
-            <div class="sign_jack">
-                <img id="signature" src="/img/c2635b48197b847d0d05a39561d74aea.png" alt="signature jack" />
-            </div>
+            <?php require 'profil.php'; ?>
         </section>
+
+
+
+
         <div class="ba_pirates">
             <video id="background-video" src="/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
-        <section class="section section2" id="competences">
-            <div class="competences-section">
-                <h1>Competences</h1>
-                <div class="competences-container">
 
-                    <div class="competences">
-                        <div class="icon-fighter"></div>
-                        <h2>Bagarreur</h2>
-                        <p>23 Batailles à mon actif !</p>
-                    </div>
-                    <div class="competences">
-                        <div class="icon-rhum"></div>
-                        <h2>Tiens l'alcool</h2>
-                        <p> Santé !</p>
-                    </div>
-                    <div class="competences">
-                        <div class="icon-pillage"></div>
-                        <h2>Vol/Pillage</h2>
-                        <p>Quel pirate n'aime pas les trésors ?</p>
-                    </div>
-                    <div class="competences">
-                        <div class="icon-management"></div>
-                        <h2>Management</h2>
-                        <p>Capitaine sur une dizaines de navires.</p>
-                    </div>
-                    <div class="competences">
-                        <div class="icon-run"></div>
-                        <h2>Rapide</h2>
-                        <p> Je cours plus vite qu'une tribu de cannibales.</p>
-                    </div>
-                </div>
-            </div>
+
+
+        <section class="section section2" id="competences">
+            <?php require 'skill_Data.php'; ?>
         </section>
+
+
+
         <div class="ba_pirates">
             <video id="background-video" src="/video/video_bg.mp4" autoplay loop muted>
             </video>
         </div>
 
 
+
         <section class="section section3" id="experience-pro">
             <?php require 'experience_pro.php' ?>
         </section>
+
 
 
         <div class="ba_pirates"></div>
@@ -211,31 +163,16 @@
         </section>
         <div class="lastImg"></div>
     </main>
+
+
+
     <footer>
-        <form action="" method="get" class="form-parchemin" id="contact">
-            <div class="form-input">
-                <legend>Allez mon gars... Contact moi!</legend>
-                <label for="name">Ecrit ton nom!</label>
-                <input type="text" name="name" id="name" required placeholder="Name" />
-            </div>
-            <div class="form-input">
-                <label for="email">Ajoute ton adresse postal numerique!</label>
-                <input type="text" name="email" id="email" required placeholder="Email adress" />
-            </div>
-            <div class="form-input">
-                <div class="form-btn-flex">
-                    <input class="form-btn" type="submit" value="Appose ta marque !!" />
-                    <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates" />
-                </div>
-            </div>
-            <div class="copyright">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </form>
+        <?php require 'form.php'; ?>
     </footer>
+
+
+
+
 </body>
 
 </html>
