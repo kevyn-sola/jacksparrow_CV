@@ -5,16 +5,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style/root.css" />
-    <link rel="stylesheet" href="../style/style.css" />
-    <link rel="stylesheet" href="../style/form.css" />
-    <link rel="stylesheet" href="../style/loisirs.css" />
-    <link rel="stylesheet" href="../style/profil.css" />
-    <link rel="stylesheet" href="../style/header.css" />
-    <link rel="stylesheet" href="../style/skill.css">
-    <link rel="stylesheet" href="../style/pro_experience.css" />
+    <link rel="stylesheet" href="../assets/style/root.css" />
+    <link rel="stylesheet" href="../assets/style/style.css" />
+    <link rel="stylesheet" href="../assets/style/form.css" />
+    <link rel="stylesheet" href="../assets/style/loisirs.css" />
+    <link rel="stylesheet" href="../assets/style/profil.css" />
+    <link rel="stylesheet" href="../assets/style/header.css" />
+    <link rel="stylesheet" href="../assets/style/skill.css">
+    <link rel="stylesheet" href="../assets/style/pro_experience.css" />
     <title>Jack Sparrow CV</title>
-    <script src="../script/header.js" defer></script>
+    <script src="../assets/script/header.js" defer></script>
 </head>
 
 <body>
@@ -137,136 +137,13 @@
             <video id="background-video" src="/video/video_bg.mp4" autoplay loop muted>
             </video>
         </div>
-        <section class="section section3" id="experience-pro">
-            <h2>Experiences professionelle</h2>
-            <div class="experience-pro-container">
-                <div class="date">
-                    <p>
-                        1634 - 1640
-                    </p>
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Capitaine</span>
-                        <hr>
-                        Capitaine du Black Pearl<br>
-                        
-                        Pillage & recherche de trésors en tout genre !
-                    </p>
-                </div>
-                <div class="date">
-                    <p>
-                        1640
-                    </p>
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Capitaine</span>
-                        <hr>
-                        Capitaine d'un vieux raffiot avec une équipe de bras cassés.<br>
-                        Objectif : Récupérer mon beau Black Pearl !
-                    </p>
-                </div>
-                <div class="date">
-                    <p>
-                        1642 - 1644
-                    </p>
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Capitaine</span>
-                        <hr>
-                        <p>Capitaine du Black Pearl</p>
-                    </p>
-                </div>
-                <div class="date">
-                    <p>
-                        1644
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Undefined</span>
-                        <hr>
-                        Mort - RIP moi ! 🪦
-                    </p>
-                </div>
-                <div class="date">
-                    <p>
-                        1646
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Résurrection</span>
-                        <hr>
-                        Plus mort !
-                    </p>
-                </div>
-                <div class="date">
-                    <p>
-                        1649
-                </div>
-                <div class="experience">
-                    <p>
-                        <span>Capitaine</span>
-                        <hr>
-                        Recherche de la Fontaine de Jouvence.
-                    </p>
-                </div>
-            </div>
 
-            <div class="exp-quotes">
-                <h2>Avis sur ma personne</h2>
-                <div class="quotes-container" id="quotes-container1">
-                    <div class="img-quotes-container">
-                        <img src="img/legolas.jpg" alt="picture of Legolas" class="quotes-pic" />
-                        <img src="img/inverted-commas.png" alt="image of commas" class="commas" />
-                    </div>
-                    <div class="exp-text-container">
-                        <p>
-                            Cet homme est le meilleur arch... euh tireur que j'ai rencontré de ma vie d'elf... euh de
-                            pirate.
-                        </p>
-                        <p><b>William Turner</b></p>
-                    </div>
-                </div>
-                <div class="quotes-container" id="quotes-container2">
-                    <div class="img-quotes-container">
-                        <img src="img/barbossa.jpeg" alt="picture of Barbossa" class="quotes-pic" />
-                        <img src="img/inverted-commas.png" alt="image of commas" class="commas" />
-                    </div>
-                    <div class="exp-text-container">
-                        <p>
-                            Je n'ai jamais aussi bien vécu une mutinerie qu'avec Jack Sparrow !
-                        </p>
-                        <p><b>Hector Barbossa</b></p>
-                    </div>
-                </div>
-                <div class="quotes-container" id="quotes-container3">
-                    <div class="img-quotes-container">
-                        <img src="img/elizabeth.jpg" alt="picture of Elizabeth" class="quotes-pic" />
-                        <img src="img/inverted-commas.png" alt="image of commas" class="commas" />
-                    </div>
-                    <div class="exp-text-container">
-                        <p>
-                            Il ne s'est jamais rien passé entre Jack et moi et il ne se passera jamais rien !!
-                        </p>
-                        <p><b>Elizabeth Swann</b></p>
-                    </div>
-                </div>
-                <div class="quotes-container" id="quotes-container4">
-                    <div class="img-quotes-container">
-                        <img src="img/Gibbs.jpg" alt="picture of Gibbs" class="quotes-pic" />
-                        <img src="img/inverted-commas.png" alt="image of commas" class="commas" />
-                    </div>
-                    <div class="exp-text-container">
-                        <p>
-                            Super Capitaine ! Quelle prestance ! Quel charisme !
-                            J'espère qu'en disant ça il va enfin me payer tout ce qu'il me doit.
-                        </p>
-                        <p><b>Joshamee Gibbs</b></p>
-                    </div>
-                </div>
+
+        <section class="section section3" id="experience-pro">
+            <?php require 'experience_pro.php' ?>
         </section>
+
+
         <div class="ba_pirates"></div>
         <section class="section section4">
             <h1 id="loisirs">Loisirs</h1>
