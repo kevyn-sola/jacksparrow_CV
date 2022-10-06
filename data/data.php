@@ -35,7 +35,7 @@ $data = [
         'Bagarreur' => [
             'classIconSkill' => 'icon-fighter',
             'skilldesc' => '23 Batailles à mon actif !',
-
+            'icon' => '../assets/img/swords-icon.png',
         ],
 
         'Tiens l\'alcool' => [
@@ -43,6 +43,7 @@ $data = [
 
             'classIconSkill' => 'icon-rhum',
             'skilldesc' => 'Santé !',
+            'icon' => '../assets/img/rhum-bottle.png',
 
         ],
 
@@ -51,6 +52,7 @@ $data = [
 
             'classIconSkill' => 'icon-pillage',
             'skilldesc' => 'Quel pirate n\'aime pas les trésors ?',
+            'icon' => '../assets/img/treasure-icon.png',
         ],
 
         'Management' => [
@@ -58,6 +60,7 @@ $data = [
 
             'classIconSkill' => 'icon-management',
             'skilldesc' => 'Capitaine sur une dizaines de navires.',
+            'icon' => '../assets/img/leader-icon.png',
 
         ],
 
@@ -65,6 +68,7 @@ $data = [
 
             'classIconSkill' => 'icon-run',
             'skilldesc' => 'Je cours assez vite.',
+            'icon' => '../assets/img/run-icon.png',
 
         ],
     ],
