@@ -59,7 +59,8 @@ header h1 {
     width: 50px;
 
     border-radius: 50%;
-    background-color: var(--text-color);
+    background-image: url(../img/fond-vert.jpg);
+    background-size: cover;
 
     z-index: 2;
 }
