@@ -61,18 +61,25 @@
     </header>
     <main>
 
-
-
+        <div class="border-top"></div>
+        
         <section class="section section1" id="profil">
             <?php require 'profil.php'; ?>
         </section>
 
+        <div class="border-top"></div>
 
 
-
+<<<<<<< HEAD
         <div class="ba_pirates"></div>
         <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
         </video>
+=======
+        <div class="ba_pirates">
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
+            </video>
+        </div>
+>>>>>>> a1a2de088093dbe628e3cbc883da3fa22f316eb1
 
 
 
@@ -84,9 +91,16 @@
 
 
 
+<<<<<<< HEAD
         <div class="ba_pirates"></div>
         <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
         </video>
+=======
+        <div class="ba_pirates">
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
+            </video>
+        </div>
+>>>>>>> a1a2de088093dbe628e3cbc883da3fa22f316eb1
 
 
 
@@ -115,10 +129,18 @@
 
 
 
-    <footer>
+    <div>
         <?php require 'form.php'; ?>
+    </div>
+    <footer>
+        <h2>Github:</h2>
+        <div class="links">
+            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
+            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
+            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
+        </div>
     </footer>
-
 
 
 

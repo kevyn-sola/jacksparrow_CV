@@ -2,17 +2,18 @@
 @import url(/style/style.css);
 
 form {
-    background-image: url(/img/parchemin.png);
+    background-image: url(../img/parcheminTeinteXL\ 1.png);
     min-height: 800px;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -70px;
+    margin-top: -80px;
+    z-index: 3;
 }
 
 .form-input img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 120px;
 }
 
 .form-parchemin {
@@ -47,18 +48,23 @@ legend {
     font-family: var(--font-family-h2);
 }
 
+.form-input>textarea {
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: var(--spacing-less);
+    background: transparent;
+    line-height: 1.5;
+    font-family: var(--font-family-h2);
+}
+
 .form-input .form-btn {
-    background-color: brown;
+    background-color: transparent;
     font-family: var(--font-family-h2);
     font-size: 2rem;
     color: var(--text-color2);
     padding: var(--spacing-less);
     border-radius: 4px;
-}
-
-.form-btn:hover {
-    background-color: rgb(211, 50, 50);
-    transition: background-color 0.3s;
+    border: none;
 }
 
 .form-btn-flex {
@@ -67,9 +73,49 @@ legend {
     align-items: center;
 }
 
+.form-btn-flex img:hover {
+    filter: brightness(120%);
+    scale: 102%;
+}
+
+.form-btn-flex label {
+    font-family: var(--font-family-h2);
+    font-size: 2rem;
+}
+
+footer {
+    color: var(--text-color2);
+    background-image: url(../img/water_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    margin-top: -40px;
+    z-index: 1;
+}
+
+footer, .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--text-color2);
+    font-size: 1rem;
+}
+
+footer a:hover {
+    background-color: black;
+    scale: 120%;
+    transition: 0.3s ease-in-out;
+}
+
 @media screen and (min-width: 760px) {
     .form-parchemin {
-        padding: 25%;
+        padding-inline: 20%;
+        padding-block: 10%;
         justify-content: flex-start;
     }
 
@@ -77,9 +123,18 @@ legend {
         font-size: 3rem;
     }
 
+    .form-btn-flex label {
+        font-size: 3rem;
+    }
+
     legend {
         font-size: 4rem;
     }
+
+    .form-input img {
+        width: 300px;
+        height: 240px;
+    }    
 
     .form-input>input {
         height: 2rem;
@@ -89,6 +144,25 @@ legend {
     .form-input>.form-btn {
         font-size: 3rem;
         height: 4rem;
+    }
+
+    footer .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .links {
+        width: 100vw;
+    }
+    
+    footer a {
+        font-size: 1.5rem;
+        padding-inline: 1rem;
+    }
+
+    footer>h2 {
+        font-size: 3rem;
     }
 }
 
