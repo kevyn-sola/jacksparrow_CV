@@ -39,10 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ?>
 
-    <form action="" method="post" class="form-parchemin">
-        <?php if (!empty($errors)): ?>
-            <ul>
-                <?php foreach ($errors as $error): ?>
+<form action="" method="post" class="form-parchemin">
+    <?php if (!empty($errors)) : ?>
+        <ul>
+            <?php foreach ($errors as $error) : ?>
                 <li>
                     <?= $error ?>
                 </li>
@@ -69,6 +69,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="form-btn-flex">
             <label for="btn_submit">Cliques sur le cachet !</label>
             <button class="form-btn" id="btn_submit" type="submit" value="Appose ta marque !!">
-            <img src="../assets/img/cachet_cire_jack4.png" alt="Cachet de cire Pirates" />
+                <img src="../assets/img/cachet_cire_jack4.png" alt="Cachet de cire Pirates" />
         </div>
-    </form>
+</form>
