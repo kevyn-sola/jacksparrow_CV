@@ -102,11 +102,6 @@ $data = [
         '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
 
     ],
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> a1a2de088093dbe628e3cbc883da3fa22f316eb1
 
     'Loisirs' => [
         'Pecher' =>

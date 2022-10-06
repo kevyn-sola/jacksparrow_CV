@@ -62,7 +62,7 @@
     <main>
 
         <div class="border-top"></div>
-        
+
         <section class="section section1" id="profil">
             <?php require 'profil.php'; ?>
         </section>
@@ -70,16 +70,12 @@
         <div class="border-top"></div>
 
 
-<<<<<<< HEAD
-        <div class="ba_pirates"></div>
-        <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
-        </video>
-=======
+
         <div class="ba_pirates">
             <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
->>>>>>> a1a2de088093dbe628e3cbc883da3fa22f316eb1
+
 
 
 
@@ -91,16 +87,12 @@
 
 
 
-<<<<<<< HEAD
-        <div class="ba_pirates"></div>
-        <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
-        </video>
-=======
+
         <div class="ba_pirates">
             <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
->>>>>>> a1a2de088093dbe628e3cbc883da3fa22f316eb1
+
 
 
 
