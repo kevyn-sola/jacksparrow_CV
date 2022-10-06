@@ -6,7 +6,7 @@ $data = [
 
         'imgProfil' => '../assets/img/border_jack.png',
         'altImgProfil' => 'Photo de Jack Sparrow',
-        'iconProfil' => '../assets/img/icon-anchor.png',
+        'iconProfil' => '../assets/img/ancre-pleine.png',
         'altIconProfil' => 'Icone d\'une ancre de bateau',
         'permis' => 'Permis Bateau',
         'titreProfil' => 'Capitaine Jack Sparrow',
