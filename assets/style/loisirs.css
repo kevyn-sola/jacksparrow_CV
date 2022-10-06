@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 85%;
     margin-block-end: var(--spacing-more);
 }
 
@@ -23,15 +22,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.plank-container{
-    display:flex;
-    justify-content: center;
-}
-
-.plank-container:nth-child(2){
-    transform: rotate(90deg);
 }
 
 .section4 h2 {
@@ -172,7 +162,23 @@
     background-position: center;
 }
 
-.loisirs-cards:hover {
+.loisirs-cards1:hover {
+    scale: 1.05;
+}
+
+.loisirs-cards2:hover {
+    scale: 1.05;
+}
+
+.loisirs-cards3:hover {
+    scale: 1.05;
+}
+
+.loisirs-cards4:hover {
+    scale: 1.05;
+}
+
+.loisirs-cards5:hover {
     scale: 1.05;
 }
 
@@ -184,50 +190,7 @@
     height :80%;
 }
 
-.plank1{
-    width: 90%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-    transform: rotate(4deg);
-}
 
-.plank2{
-    width: 90%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-    transform: rotate(-2deg);
-}
-
-.plank3{
-    width: 90%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-    transform: rotate(1deg);
-}
-
-.plank4{
-    width: 90%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-    transform: rotate(-3deg);
-}
-
-.plank5{
-    width: 90%;
-    margin:0;
-    margin-block-end: -150px;
-    position :relative;
-    z-index: 0;
-    transform: rotate(2deg);
-}
 
 @media screen and (max-width:410px){
 
@@ -249,25 +212,6 @@
 }
 
 
-@media screen and (max-width: 560px) {
-    .plank{
-        margin-block-end: -95px;
-    }
-
-    .plank-container{
-        height : 110%;
-        padding-block-end: 50px;
-    }
-
-
-}
-
-@media screen and (max-width: 665px)and (min-width:560px) {
-    .plank{
-        margin-block-end: -130px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .loisirs {
         display: flex;
@@ -280,4 +224,11 @@
         flex-direction: column;
         padding : var(--spacing);
     }
+}
+
+@media screen and (min-width: 1100px){
+    .loisirs {
+        justify-content: space-evenly;
+    }
+
 }

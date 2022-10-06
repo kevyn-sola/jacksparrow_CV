@@ -78,6 +78,9 @@
 
         <div class="border-top"></div>
         <section class="section section2" id="competences">
+            <div class="planche-title">
+                <h1>Competences</h1>
+            </div>
             <div class="skill">
                 <?php require 'skill_Data.php'; ?>
             </div>

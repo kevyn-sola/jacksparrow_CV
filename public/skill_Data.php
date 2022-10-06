@@ -1,14 +1,8 @@
 <?php
-require '../data/data.php'; ?>
+require '../data/data.php';
 
 
-<div class="planche-title">
-    <h1>Competences</h1>
-</div>
-
-
-
-<?php foreach ($data['competences'] as $title => $objects) : ?>
+foreach ($data['competences'] as $title => $objects) : ?>
     <div class="skill">
         <div class="competences-container">
             <div class="plank-container">
