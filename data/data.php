@@ -35,7 +35,7 @@ $data = [
         'Bagarreur' => [
             'classIconSkill' => 'icon-fighter',
             'skilldesc' => '23 Batailles à mon actif !',
-
+            'icon' => '../assets/img/swords-icon.png',
         ],
 
         'Tiens l\'alcool' => [
@@ -43,6 +43,7 @@ $data = [
 
             'classIconSkill' => 'icon-rhum',
             'skilldesc' => 'Santé !',
+            'icon' => '../assets/img/rhum-bottle.png',
 
         ],
 
@@ -51,6 +52,7 @@ $data = [
 
             'classIconSkill' => 'icon-pillage',
             'skilldesc' => 'Quel pirate n\'aime pas les trésors ?',
+            'icon' => '../assets/img/treasure-icon.png',
         ],
 
         'Management' => [
@@ -58,6 +60,7 @@ $data = [
 
             'classIconSkill' => 'icon-management',
             'skilldesc' => 'Capitaine sur une dizaines de navires.',
+            'icon' => '../assets/img/leader-icon.png',
 
         ],
 
@@ -65,6 +68,7 @@ $data = [
 
             'classIconSkill' => 'icon-run',
             'skilldesc' => 'Je cours assez vite.',
+            'icon' => '../assets/img/run-icon.png',
 
         ],
     ],
@@ -86,7 +90,7 @@ $data = [
             'Undefined' => 'Mort - RIP moi ! 🪦'
         ],
         '1646' => [
-            'Résurrection' => 'Plus mort !'
+            'Resurrection' => 'Plus mort !'
         ],
         '1649 - 1652' => [
             'Capitaine' => 'Recherche de la Fontaine de Jouvence.'
@@ -112,7 +116,7 @@ $data = [
         ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket'],
         'Rhum' =>
         ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel'],
-        'Séduction' =>
+        'Seduction' =>
         ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart'],
     ],
 

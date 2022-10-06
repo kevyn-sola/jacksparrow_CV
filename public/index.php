@@ -62,9 +62,9 @@
     <main>
 
         <div class="border-top"></div>
-            <section class="section section1" id="profil">
-                <?php require 'profil.php'; ?>
-            </section>
+        <section class="section section1" id="profil">
+            <?php require 'profil.php'; ?>
+        </section>
         <div class="border-bottom"></div>
 
 
@@ -77,11 +77,11 @@
 
 
         <div class="border-top"></div>
-            <section class="section section2" id="competences">
-                <div class="skill">
-                    <?php require 'skill_Data.php'; ?>
-                </div>
-            </section>
+        <section class="section section2" id="competences">
+            <div class="skill">
+                <?php require 'skill_Data.php'; ?>
+            </div>
+        </section>
         <div class="border-bottom"></div>
 
 
@@ -94,9 +94,9 @@
 
 
         <div class="border-top"></div>
-            <section class="section section3" id="experience-pro">
-                <?php require 'experience_pro.php' ?>
-            </section>
+        <section class="section section3" id="experience-pro">
+            <?php require 'experience_pro.php' ?>
+        </section>
         <div class="border-bottom"></div>
 
 
@@ -106,6 +106,7 @@
 
 
         <div class="border-top"></div>
+
             <section class="section section4">
                 <div class="planche-title">
                     <h1>Loisirs</h1>
@@ -115,8 +116,8 @@
                     <?php require 'loisirs.php' ?>
                 </div>
             </section>
-        <div class="border-bottom"></div>
 
+        <div class="border-bottom"></div>
 
         <div class="lastImg"></div>
     </main>
