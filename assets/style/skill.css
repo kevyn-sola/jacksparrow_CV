@@ -12,6 +12,7 @@
 
 
 }
+
 .skill {
     display: flex;
     flex-direction: column;
@@ -32,16 +33,18 @@
 .section2 h2 {
     font-family: var(--font-family-h2);
     margin-inline-start: var(--spacing);
-    margin-block-start: var(--spacing-more);
-    padding-inline-start: var(--spacing);
+    padding-inline-start: 30px;
+    font-size: 2.5rem;
 }
 
 
 .section2 p {
     font-family: var(--font-family-body);
-    margin-inline-start: var(--spacing);
-    font-size: 23px;
     padding: var(--spacing);
+    padding-inline-start: 30px;
+    margin-inline-start: var(--spacing);
+    font-size: 1.5rem;
+    padding-block-start: 0;
 }
 
 .picto {
@@ -80,23 +83,30 @@
 .skill-text-container {
     display: flex;
     flex-direction: column;
-    padding : var(--spacing-more);
+    align-items: flex-start;
+    justify-content: center;
+    height :80%;
 }
 
 .plank{
-    width: 90%;
+    width: 80%;
     margin:0;
     margin-block-end: -150px;
     position :relative;
     z-index: 0;
 }
 
+@media screen and (max-width:410px){
+
+    .skill-cards-container{
+        width: 97%;
+    }
+}
 
 @media screen and (max-width: 560px) {
     .plank{
         margin-block-end: -95px;
     }
-
 }
 
 @media screen and (max-width: 665px)and (min-width:560px) {
@@ -110,14 +120,6 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .section2 h2 {
-        font-size: 3rem;
-    }
-
-    .section2 p {
-        font-size: 1.5rem;
     }
 
     .loisirs-text-container {

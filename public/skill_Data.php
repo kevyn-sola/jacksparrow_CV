@@ -11,7 +11,9 @@ require '../data/data.php'; ?>
 <?php foreach ($data['competences'] as $title => $objects) : ?>
     <div class="skill">
         <div class="competences-container">
-            <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
+            <div class="plank-container">
+                <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
+            </div>
             <div class="skill-cards-container" id="cards-container1">
                 <div class="skill-cards">
                     <div class="skill-text-container">

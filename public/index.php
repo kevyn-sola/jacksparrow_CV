@@ -110,7 +110,6 @@
             <div class="planche-title">
                 <h1>Loisirs</h1>
             </div>
-            <h1 id="loisirs">Loisirs</h1>
             <div class="loisirs">
                 <?php require 'loisirs.php' ?>
             </div>

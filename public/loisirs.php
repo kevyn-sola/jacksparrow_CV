@@ -6,7 +6,9 @@ require '../data/data.php';
 foreach ($data['Loisirs'] as $title => $hobbyContent) : ?>
     <div class="loisirs">
         <div class=loisirs-container>
-            <img src="../assets/img/plancheBois3.png" alt="" class='plank'>
+            <div class="plank-container">
+                <img src="../assets/img/plancheBois3.png" alt="an image of a plank" class='<?= $hobbyContent[4] ?>'>
+            </div>
             <div class="loisirs-cards-container" id="cards-container1">
                 <div class="loisirs-cards">
                     <div class="loisirs-text-container">
