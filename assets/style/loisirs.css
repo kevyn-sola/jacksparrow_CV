@@ -57,7 +57,7 @@
     margin-inline-end : var(--spacing)
 }
 
-.loisirs-cards-container {
+.loisirs-cards-container1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: var(--spacing) 1fr var(--spacing);
@@ -68,7 +68,99 @@
 
 }
 
-.loisirs-cards {
+.loisirs-cards-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
+    height : 265px;
+    width: 375px;
+    z-index: 1;
+
+}
+
+.loisirs-cards-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
+    height : 258px;
+    width: 375px;
+    z-index: 1;
+
+}
+
+.loisirs-cards-container4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
+    height : 265px;
+    width: 375px;
+    z-index: 1;
+
+}
+
+.loisirs-cards-container5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
+    height : 258px;
+    width: 375px;
+    z-index: 1;
+
+}
+
+.loisirs-cards1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    transition: ease-out 0.5s;
+    background-image: url(../img/parch-01.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.loisirs-cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    transition: ease-out 0.5s;
+    background-image: url(../img/parch-02.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.loisirs-cards3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    transition: ease-out 0.5s;
+    background-image: url(../img/parch-05.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.loisirs-cards4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    transition: ease-out 0.5s;
+    background-image: url(../img/parch-02.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.loisirs-cards5 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

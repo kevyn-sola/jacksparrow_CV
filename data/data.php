@@ -109,15 +109,15 @@ $data = [
 
     'Loisirs' => [
         'Pecher' =>
-        ['Kraken, merle, sardine.', '../assets/img/kraken.png', 'an image of a kraken', 'parch-01.png', 'plank1'],
+        ['Kraken, merle, sardine.', '../assets/img/kraken.png', 'an image of a kraken', 'loisirs-cards1', 'plank1', 'loisirs-cards-container1'],
         'Escrime' =>
-        ['J\'aime la bagarre.', '../assets/img/swords.png', 'an image of a sword', 'parch-07.png', 'plank2'],
+        ['J\'aime la bagarre.', '../assets/img/swords.png', 'an image of a sword', 'loisirs-cards2', 'plank2', 'loisirs-cards-container2'],
         'Tir sportif' =>
-        ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket', 'parch-03.png', 'plank3'],
+        ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket', 'loisirs-cards3', 'plank3', 'loisirs-cards-container3'],
         'Rhum' =>
-        ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel', 'parch-06.png', 'plank4'],
+        ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel', 'loisirs-cards4', 'plank4', 'loisirs-cards-container4'],
         'Seduction' =>
-        ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart', 'parch-04.png', 'plank5'],
+        ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart', 'loisirs-cards5', 'plank5', 'loisirs-cards-container5'],
     ],
 
     'form' => [
@@ -128,12 +128,4 @@ $data = [
         'label-email' => 'Ajoutes ton adresse postale numerique!',
         'label-message' => 'Dis moi ce que tu desires!',
     ],
-
-    'classPlank' => [
-        'plank1', 'plank2', 'plank3', 'plank4', 'plank5',
-    ],
-
-    'cutSrc' => [
-        'parch-01.png', 'parch-07.png', 'parch-03.png', 'parch-06.png', 'parch-04.png',
-    ]
 ];
