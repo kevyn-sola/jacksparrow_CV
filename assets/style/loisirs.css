@@ -231,7 +231,19 @@
 
 @media screen and (max-width:410px){
 
-    .loisirs-cards-container{
+    .loisirs-cards-container1{
+        width: 97%;
+    }
+    .loisirs-cards-container2{
+        width: 97%;
+    }
+    .loisirs-cards-container3{
+        width: 97%;
+    }
+    .loisirs-cards-container4{
+        width: 97%;
+    }
+    .loisirs-cards-container5{
         width: 97%;
     }
 }
@@ -240,6 +252,11 @@
 @media screen and (max-width: 560px) {
     .plank{
         margin-block-end: -95px;
+    }
+
+    .plank-container{
+        height : 110%;
+        padding-block-end: 50px;
     }
 
 

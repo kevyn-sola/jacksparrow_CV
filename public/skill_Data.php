@@ -12,10 +12,10 @@ require '../data/data.php'; ?>
     <div class="skill">
         <div class="competences-container">
             <div class="plank-container">
-                <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
+                <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='<?= $objects['planks'] ?>'>
             </div>
-            <div class="skill-cards-container" id="cards-container1">
-                <div class="skill-cards">
+            <div class="<?= $objects['classCardsContainer'] ?>" id="cards-container1">
+                <div class="<?= $objects['classCards'] ?>">
                     <div class="skill-text-container">
                         <h2><?= $title ?></h2>
                         <p><?= $objects['skilldesc'] ?></p>

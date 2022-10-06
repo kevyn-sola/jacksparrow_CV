@@ -36,6 +36,9 @@ $data = [
             'classIconSkill' => 'icon-fighter',
             'skilldesc' => '23 Batailles à mon actif !',
             'icon' => '../assets/img/swords-icon.png',
+            'classCardsContainer' => 'skill-cards-container1',
+            'classCards' => 'skill-cards1',
+            'planks' => 'plank1',
         ],
 
         'Tiens l\'alcool' => [
@@ -44,6 +47,9 @@ $data = [
             'classIconSkill' => 'icon-rhum',
             'skilldesc' => 'Santé !',
             'icon' => '../assets/img/rhum-bottle.png',
+            'classCardsContainer' => 'skill-cards-container2',
+            'classCards' => 'skill-cards2',
+            'planks' => 'plank2',
 
         ],
 
@@ -53,6 +59,9 @@ $data = [
             'classIconSkill' => 'icon-pillage',
             'skilldesc' => 'Quel pirate n\'aime pas les trésors ?',
             'icon' => '../assets/img/treasure-icon.png',
+            'classCardsContainer' => 'skill-cards-container3',
+            'classCards' => 'skill-cards3',
+            'planks' => 'plank3',
         ],
 
         'Management' => [
@@ -61,6 +70,9 @@ $data = [
             'classIconSkill' => 'icon-management',
             'skilldesc' => 'Capitaine sur une dizaines de navires.',
             'icon' => '../assets/img/leader-icon.png',
+            'classCardsContainer' => 'skill-cards-container4',
+            'classCards' => 'skill-cards4',
+            'planks' => 'plank4',
 
         ],
 
@@ -69,6 +81,9 @@ $data = [
             'classIconSkill' => 'icon-run',
             'skilldesc' => 'Je cours assez vite.',
             'icon' => '../assets/img/run-icon.png',
+            'classCardsContainer' => 'skill-cards-container5',
+            'classCards' => 'skill-cards5',
+            'planks' => 'plank5',
 
         ],
     ],
