@@ -4,6 +4,7 @@
 form {
     background-image: url(../img/parcheminTeinteXL\ 1.png);
     min-height: 800px;
+    position: relative;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +14,7 @@ form {
 
 .form-input img {
     width: 150px;
-    height: 120px;
+    height: 150px;
 }
 
 .form-parchemin {
@@ -91,8 +92,8 @@ footer {
     background-image: url(../img/water_footer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 20vh;
-    margin-top: -40px;
+    height: 30vh;
+    margin-top: -100px;
     z-index: 1;
 }
 

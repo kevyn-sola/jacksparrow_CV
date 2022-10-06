@@ -119,15 +119,15 @@
     <div>
         <?php require 'form.php'; ?>
     </div>
-    <footer>
-        <h2>Github:</h2>
-        <div class="links">
-            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
-            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
-            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
-            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
-        </div>
-    </footer>
+        <footer>
+            <h2>Github:</h2>
+            <div class="links">
+                <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
+                <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
+                <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+                <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
+            </div>
+        </footer>
 
 
 
