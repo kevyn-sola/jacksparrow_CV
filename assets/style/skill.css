@@ -4,11 +4,12 @@
 
 
 .section2  {
-    background-image: url(../img/bg_brown_alone1.png);
+    background-image: url(../img/fond-vert-fonce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
+
 
 }
 .skill {
@@ -112,11 +113,11 @@
     }
 
     .section2 h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .section2 p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .loisirs-text-container {
