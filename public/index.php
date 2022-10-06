@@ -104,16 +104,7 @@
         <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
         </video>
 
-<<<<<<< HEAD
-        <section class="section section4">
-            <div class="planche-title">
-                <h1>Loisirs</h1>
-            </div>
-            <div class="loisirs">
-                <?php require 'loisirs.php' ?>
-            </div>
-        </section>
-=======
+
         <div class="border-top"></div>
             <section class="section section4">
                 <div class="planche-title">
@@ -125,9 +116,8 @@
                 </div>
             </section>
         <div class="border-bottom"></div>
->>>>>>> 0b7059b4de1e51c63900cc538a7aaceafbef488c
 
-        
+
         <div class="lastImg"></div>
     </main>
 
