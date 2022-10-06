@@ -4,17 +4,17 @@
 form {
     background-image: url(../img/parcheminTeinteXL\ 1.png);
     min-height: 800px;
+    position: relative;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -80px;
-    z-index: 3;
     position: relative;
 }
 
 .form-input img {
     width: 150px;
-    height: 120px;
+    height: 150px;
 }
 
 .form-parchemin {
@@ -33,6 +33,9 @@ form {
 .form-input>label {
     font-family: var(--font-family-h2);
     font-size: 2rem;
+    margin-block-start: 2rem;
+    padding-block-end: 1rem;
+    line-height: 2rem;
 }
 
 legend {
@@ -45,17 +48,17 @@ legend {
     border-radius: 4px;
     font-size: 1.5rem;
     padding: var(--spacing-less);
-    background: transparent;
-    font-family: var(--font-family-h2);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
 }
 
 .form-input>textarea {
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: var(--spacing-less);
-    background: transparent;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
     line-height: 1.5;
-    font-family: var(--font-family-h2);
 }
 
 .form-input .form-btn {
@@ -84,6 +87,12 @@ legend {
     font-size: 2rem;
 }
 
+.list-errors {
+    background-color: blanchedalmond;
+    color: red;
+    font-size: 1.5rem;
+    list-style: none;
+}
 
 @media screen and (min-width: 760px) {
     .form-parchemin {
@@ -94,6 +103,7 @@ legend {
 
     .form-input>label {
         font-size: 3rem;
+        margin-block-start: 3rem;
     }
 
     .form-btn-flex label {
@@ -106,11 +116,11 @@ legend {
 
     .form-input img {
         width: 300px;
-        height: 240px;
+        height: 300px;
     }    
 
     .form-input>input {
-        height: 2rem;
+        height: 4rem;
 
     }
 
@@ -120,10 +130,3 @@ legend {
     }
 
 }
-
-/* @media screen and (min-width: 400px) {
-    .form-input img {
-        position: relative;
-        left: 60%;
-    }
-} */

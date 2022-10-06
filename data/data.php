@@ -122,7 +122,7 @@ $data = [
 
     'form' => [
 
-        'legend' => 'Allez mon gars... Contact moi!',
+        'legend' => 'Allez mon gars... Contacte moi!',
         'label-firstname' => 'Ecris ton prenom!',
         'label-lastname' => 'Ecris ton nom!',
         'label-email' => 'Ajoutes ton adresse postale numerique!',
