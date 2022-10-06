@@ -35,6 +35,7 @@
                         <hr>
                         <p><b><?= $name ?></b></p>
                     </div>
+
                     <?php endforeach ?>
                 </div>
     <?php endforeach ?>
