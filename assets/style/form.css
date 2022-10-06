@@ -4,16 +4,17 @@
 form {
     background-image: url(../img/parcheminTeinteXL\ 1.png);
     min-height: 800px;
+    position: relative;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -80px;
-    z-index: 3;
+    position: relative;
 }
 
 .form-input img {
     width: 150px;
-    height: 120px;
+    height: 150px;
 }
 
 .form-parchemin {
@@ -32,6 +33,9 @@ form {
 .form-input>label {
     font-family: var(--font-family-h2);
     font-size: 2rem;
+    margin-block-start: 2rem;
+    padding-block-end: 1rem;
+    line-height: 2rem;
 }
 
 legend {
@@ -44,17 +48,17 @@ legend {
     border-radius: 4px;
     font-size: 1.5rem;
     padding: var(--spacing-less);
-    background: transparent;
-    font-family: var(--font-family-h2);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
 }
 
 .form-input>textarea {
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: var(--spacing-less);
-    background: transparent;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
     line-height: 1.5;
-    font-family: var(--font-family-h2);
 }
 
 .form-input .form-btn {
@@ -83,33 +87,11 @@ legend {
     font-size: 2rem;
 }
 
-footer {
-    color: var(--text-color2);
-    background-image: url(../img/water_footer.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20vh;
-    margin-top: -40px;
-    z-index: 1;
-}
-
-footer, .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--text-color2);
-    font-size: 1rem;
-}
-
-footer a:hover {
-    background-color: black;
-    scale: 120%;
-    transition: 0.3s ease-in-out;
+.list-errors {
+    background-color: blanchedalmond;
+    color: red;
+    font-size: 1.5rem;
+    list-style: none;
 }
 
 @media screen and (min-width: 760px) {
@@ -121,6 +103,7 @@ footer a:hover {
 
     .form-input>label {
         font-size: 3rem;
+        margin-block-start: 3rem;
     }
 
     .form-btn-flex label {
@@ -133,11 +116,11 @@ footer a:hover {
 
     .form-input img {
         width: 300px;
-        height: 240px;
+        height: 300px;
     }    
 
     .form-input>input {
-        height: 2rem;
+        height: 4rem;
 
     }
 
@@ -146,29 +129,4 @@ footer a:hover {
         height: 4rem;
     }
 
-    footer .links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .links {
-        width: 100vw;
-    }
-    
-    footer a {
-        font-size: 1.5rem;
-        padding-inline: 1rem;
-    }
-
-    footer>h2 {
-        font-size: 3rem;
-    }
 }
-
-/* @media screen and (min-width: 400px) {
-    .form-input img {
-        position: relative;
-        left: 60%;
-    }
-} */

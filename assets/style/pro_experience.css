@@ -6,16 +6,12 @@
     background: url(../img/fond-vert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     padding: var(--spacing-more);
-
-    
 }
 
 .section3 > h2{
     margin: auto;
     text-align: center;
-    
     font-size: 32px;
     font-family: var(--font-family-h1);
 }

@@ -6,7 +6,7 @@ $data = [
 
         'imgProfil' => '../assets/img/border_jack.png',
         'altImgProfil' => 'Photo de Jack Sparrow',
-        'iconProfil' => '../assets/img/icon-anchor.png',
+        'iconProfil' => '../assets/img/ancre-pleine.png',
         'altIconProfil' => 'Icone d\'une ancre de bateau',
         'permis' => 'Permis Bateau',
         'titreProfil' => 'Capitaine Jack Sparrow',
@@ -133,11 +133,12 @@ $data = [
         ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel', 'loisirs-cards4', 'plank4', 'loisirs-cards-container4'],
         'Seduction' =>
         ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart', 'loisirs-cards5', 'plank5', 'loisirs-cards-container5'],
+
     ],
 
     'form' => [
 
-        'legend' => 'Allez mon gars... Contact moi!',
+        'legend' => 'Allez mon gars... Contacte moi!',
         'label-firstname' => 'Ecris ton prenom!',
         'label-lastname' => 'Ecris ton nom!',
         'label-email' => 'Ajoutes ton adresse postale numerique!',

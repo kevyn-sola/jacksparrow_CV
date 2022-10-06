@@ -5,6 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="android-chrome-icon" sizes="192x192" href="../assets/img/favicon_io/android-chrome-192x192.png">
+    <link rel="android-chrome-icon" sizes="512x512" href="../assets/img/favicon_io/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" href="../assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" sizes="16x16" href="../assets/img/favicon_io/favicon-16x16.png">
+    <link rel="icon" sizes="32x32" href="../assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico">
+    <link rel="manifest" href="../assets/img/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="../assets/style/root.css" />
     <link rel="stylesheet" href="../assets/style/style.css" />
     <link rel="stylesheet" href="../assets/style/form.css" />
@@ -13,6 +20,7 @@
     <link rel="stylesheet" href="../assets/style/header.css" />
     <link rel="stylesheet" href="../assets/style/skill.css">
     <link rel="stylesheet" href="../assets/style/pro_experience.css" />
+    <link rel="stylesheet" href="../assets/style/footer.css">
     <title>Jack Sparrow CV</title>
     <script src="../assets/script/header.js" defer></script>
 
@@ -87,8 +95,6 @@
         </section>
         <div class="border-bottom"></div>
 
-
-
         <div class="ba_pirates">
             <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
@@ -119,7 +125,6 @@
         </section>
         <div class="border-bottom"></div>
 
-
         <div class="lastImg"></div>
     </main>
 
@@ -128,17 +133,15 @@
     <div>
         <?php require 'form.php'; ?>
     </div>
+
     <footer>
-        <h2>Github:</h2>
         <div class="links">
-            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
-            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
-            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
-            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
+            <a href="https://github.com/hhertout" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Hugues Hertout</a>
+            <a href="https://github.com/V-Gillet" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Valentin Gillet</a>
+            <a href="https://github.com/toomanyMG" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Mikael Galle</a>
+            <a href="https://github.com/Planger45" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Kevyn Sola</a>
         </div>
     </footer>
-
-
 
 </body>
 

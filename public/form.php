@@ -33,22 +33,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($errors)) {
 
-        header('Location:form.php');
+        /* header('Location: index.php'); */
     }
 };
 
 ?>
 
-<form action="" method="post" class="form-parchemin">
-    <?php if (!empty($errors)) : ?>
-        <ul>
-            <?php foreach ($errors as $error) : ?>
+    <form action="" method="post" class="form-parchemin">
+        <?php if (!empty($errors)): ?>
+            <ul class="list-errors">
+                <?php foreach ($errors as $error): ?>
                 <li>
                     <?= $error ?>
                 </li>
-            <?php endforeach; ?>
-        </ul>
-    <?php endif; ?>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
     <div class="form-input">
         <legend id="contact"><?= $data['form']['legend']; ?></legend>
 
@@ -57,8 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <label for="lastname"><?= $data['form']['label-lastname']; ?></label>
         <input type="text" name="lastname" id="lastname" placeholder="Sparrow" required value="<?= $contactForm['lastname'] ?>" />
-    </div>
-    <div class="form-input">
+        
         <label for="email"><?= $data['form']['label-email']; ?></label>
         <input type="text" name="email" id="email" placeholder="Jack.sparrow@tortuga.bay" required value="<?= $contactForm['email'] ?>" />
 
