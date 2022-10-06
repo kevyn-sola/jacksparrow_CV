@@ -1,0 +1,63 @@
+.github-logo{
+    width: 30px;
+    height: 30px;
+    margin-inline: var(--spacing);
+    background-color: var(--text-color2);
+    border-radius: 50%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+
+    color: var(--text-color2);
+    background-image: url(../img/water_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-block-start: calc(-60vh + 180px);
+    z-index: -300;
+}
+
+footer .links {
+    height: 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+    gap: var(--spacing-more);
+    margin-inline: auto;
+    padding: var(--spacing);
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--text-color2);
+    font-family: var(--font-family-h1);
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 760px) {
+    /* footer .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } */
+    
+    footer a {
+        font-size: 1.5rem;
+        padding-inline: 1rem;
+    }
+
+    footer>h2 {
+        font-size: 3rem;
+    }
+}

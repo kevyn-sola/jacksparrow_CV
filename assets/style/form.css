@@ -9,6 +9,7 @@ form {
     background-repeat: no-repeat;
     margin-top: -80px;
     z-index: 3;
+    position: relative;
 }
 
 .form-input img {
@@ -83,34 +84,6 @@ legend {
     font-size: 2rem;
 }
 
-footer {
-    color: var(--text-color2);
-    background-image: url(../img/water_footer.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20vh;
-    margin-top: -40px;
-    z-index: 1;
-}
-
-footer, .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--text-color2);
-    font-size: 1rem;
-}
-
-footer a:hover {
-    background-color: black;
-    scale: 120%;
-    transition: 0.3s ease-in-out;
-}
 
 @media screen and (min-width: 760px) {
     .form-parchemin {
@@ -146,24 +119,6 @@ footer a:hover {
         height: 4rem;
     }
 
-    footer .links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .links {
-        width: 100vw;
-    }
-    
-    footer a {
-        font-size: 1.5rem;
-        padding-inline: 1rem;
-    }
-
-    footer>h2 {
-        font-size: 3rem;
-    }
 }
 
 /* @media screen and (min-width: 400px) {

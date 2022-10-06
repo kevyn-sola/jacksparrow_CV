@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/style/header.css" />
     <link rel="stylesheet" href="../assets/style/skill.css">
     <link rel="stylesheet" href="../assets/style/pro_experience.css" />
+    <link rel="stylesheet" href="../assets/style/footer.css">
     <title>Jack Sparrow CV</title>
     <script src="../assets/script/header.js" defer></script>
 
@@ -127,12 +128,11 @@
         <?php require 'form.php'; ?>
     </div>
     <footer>
-        <h2>Github:</h2>
         <div class="links">
-            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
-            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
-            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
-            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
+            <a href="https://github.com/hhertout" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Hugues Hertout</a>
+            <a href="https://github.com/V-Gillet" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Valentin Gillet</a>
+            <a href="https://github.com/toomanyMG" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Mikael Galle</a>
+            <a href="https://github.com/Planger45" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Kevyn Sola</a>
         </div>
     </footer>
 
