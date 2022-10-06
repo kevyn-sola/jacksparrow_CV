@@ -41,13 +41,22 @@ section {
     color: var(--text-color);
 }
 
+
+/* .section2 {
+    background-image: url(../img/bg_brown_alone1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}
+ */
 .lastImg {
-    background-image: url(/img/jack-run.jpg);
+    background-image: url(../img/jack-run.jpg);
     min-height: 500px;
 }
 
 .lastImg {
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,7 +80,7 @@ section {
 @media screen and (min-width: 760px) {
     .lastImg {
         min-height: 1080px;
-    }
+    } 
 }
 
 .planche-title{
@@ -108,6 +117,7 @@ section {
 
     font-size: 4.5rem;
     font-family: var(--font-family-h1);
+    color: var(--text-color2);
     
 }
 @media screen and (max-width: 900px) {
@@ -151,4 +161,21 @@ section {
     .planche-title h1 {
         font-size: 1.5rem;
     }
+}
+
+.border-top{
+    height: 2vh;
+    width: 100%;
+    background-image: url(../img/border-top.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-block-end: -2px;
+}
+
+.border-bottom{
+    height: 2vh;
+    width: 100%;
+    background-image: url(../img/border-bottom.jpg);
+    background-position: center;
+    background-size: cover;
 }

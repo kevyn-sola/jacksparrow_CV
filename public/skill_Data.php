@@ -1,19 +1,31 @@
 <?php
 require '../data/data.php'; ?>
 
-<div class="competences-section">
-    <h1> Competences </h1>
-    <div class="competences-container">
-        <div class="competences">
-            <?php foreach ($data['competences'] as $title => $objects) : ?>
-                <div class='<?= $objects['classIconSkill'] ?>'></div>
-                <h2><?= $title ?></h2>
-                <p><?= $objects['skilldesc'] ?></p>
-            <?php endforeach ?>
 
-        </div>
-    </div>
+<div class="planche-title">
+    <h1>Competences</h1>
 </div>
+
+
+
+<?php foreach ($data['competences'] as $title => $objects) : ?>
+    <div class="skill">
+        <div class="competences-container">
+            <img src="../assets/img/plancheBois3.png" alt="planche en bois" class='plank'>
+            <div class="skill-cards-container" id="cards-container1">
+                <div class="skill-cards">
+                    <div class="skill-text-container">
+                        <h2><?= $title ?></h2>
+                        <p><?= $objects['skilldesc'] ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<?php endforeach ?>
+
+
 
 
 

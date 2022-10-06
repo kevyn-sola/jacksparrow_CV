@@ -63,20 +63,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="text" name="email" id="email" placeholder="Jack.sparrow@tortuga.bay" required value="<?= $contactForm['email'] ?>" />
 
         <label for="message"><?= $data['form']['label-message']; ?></label>
-        <textarea name="message" id="message" cols="30" rows="10" value="<?= $contactForm['message'] ?>" placeholder="Je lirai peut être ton contenu..."></textarea>
+        <textarea name="message" id="message" cols="30" rows="10" value="<?= $contactForm['message'] ?>" placeholder="Je lirai peut etre ton contenu..."></textarea>
     </div>
     <div class="form-input">
         <div class="form-btn-flex">
-            <!-- event listener alert script -->
+            <label for="btn_submit">Cliques sur le cachet !</label>
             <button class="form-btn" id="btn_submit" type="submit" value="Appose ta marque !!">
-                <img src="/img/cachet_cire_jack.png" alt="Cachet de cire Pirates" />
+                <img src="../assets/img/cachet_cire_jack4.png" alt="Cachet de cire Pirates" />
         </div>
-    </div>
-    <div class="copyright">
-            <h2>Github:</h2>
-                <a href="https://github.com/Planger45" target="_blank">Kevyn SOLA</a>
-                <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
-                <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
-                <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
-    </div>
 </form>

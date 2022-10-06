@@ -1,7 +1,135 @@
 @import url(./root.css);
 @import url(/style/style.css);
 
-.section2 {
+
+
+.section2  {
+    background-image: url(../img/fond-vert-fonce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    margin-block-end: var(--spacing-more);
+}
+
+.competences-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2 h2 {
+    font-family: var(--font-family-h2);
+    margin-inline-start: var(--spacing);
+    margin-block-start: var(--spacing-more);
+    padding-inline-start: var(--spacing);
+}
+
+
+.section2 p {
+    font-family: var(--font-family-body);
+    margin-inline-start: var(--spacing);
+    font-size: 23px;
+    padding: var(--spacing);
+}
+
+.picto {
+    height: 4rem;
+    margin-block-end: var(--spacing);
+    margin-inline-end : var(--spacing)
+}
+
+.skill-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--spacing) 1fr var(--spacing);
+    margin-block-end: var(--spacing);
+    height : 258px;
+    width: 375px;
+    z-index: 1;
+
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    transition: ease-out 0.5s;
+    background-image: url(../img/parch-01.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.skill-cards:hover {
+    scale: 1.05;
+}
+
+.skill-text-container {
+    display: flex;
+    flex-direction: column;
+    padding : var(--spacing-more);
+}
+
+.plank{
+    width: 90%;
+    margin:0;
+    margin-block-end: -150px;
+    position :relative;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 560px) {
+    .plank{
+        margin-block-end: -95px;
+    }
+
+}
+
+@media screen and (max-width: 665px)and (min-width:560px) {
+    .plank{
+        margin-block-end: -130px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skill {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section2 h2 {
+        font-size: 2rem;
+    }
+
+    .section2 p {
+        font-size: 1.8rem;
+    }
+
+    .loisirs-text-container {
+        display: flex;
+        flex-direction: column;
+        padding : var(--spacing);
+    }
+}
+
+
+
+
+/* .section2 {
     background-color: var(--bg-color-section2);
     height: 100%;
     color: var(--text-color);
@@ -253,4 +381,4 @@
         background-size: contain;
     }
 
-}
+} */

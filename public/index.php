@@ -61,115 +61,90 @@
     </header>
     <main>
 
-
-
-        <section class="section section1" id="profil">
-            <?php require 'profil.php'; ?>
-        </section>
-
+        <div class="border-top"></div>
+            <section class="section section1" id="profil">
+                <?php require 'profil.php'; ?>
+            </section>
+        <div class="border-bottom"></div>
 
 
 
         <div class="ba_pirates">
-            <video id="background-video" src="/video/video_bg_jack.mp4" autoplay loop muted>
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
 
 
 
-        <section class="section section2" id="competences">
-            <?php require 'skill_Data.php'; ?>
-        </section>
+        <div class="border-top"></div>
+            <section class="section section2" id="competences">
+                <div class="skill">
+                    <?php require 'skill_Data.php'; ?>
+                </div>
+            </section>
+        <div class="border-bottom"></div>
 
 
 
         <div class="ba_pirates">
-            <video id="background-video" src="/video/video_bg.mp4" autoplay loop muted>
+            <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
         </div>
 
 
 
-        <section class="section section3" id="experience-pro">
-            <?php require 'experience_pro.php' ?>
-        </section>
-
+        <div class="border-top"></div>
+            <section class="section section3" id="experience-pro">
+                <?php require 'experience_pro.php' ?>
+            </section>
+        <div class="border-bottom"></div>
 
 
         <div class="ba_pirates"></div>
+        <video id="background-video" src="../assets/video/video_bg_jack.mp4" autoplay loop muted>
+        </video>
+
+<<<<<<< HEAD
         <section class="section section4">
-            <h1 id="loisirs">Loisirs</h1>
+            <div class="planche-title">
+                <h1>Loisirs</h1>
+            </div>
             <div class="loisirs">
-                <div class="loisirs-cards-container" id="cards-container1">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Pecher</h2>
-                            <p>Kraken, merle, sardine.</p>
-                        </div>
-                        <img src="img/kraken.png" alt="an image of a kraken" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container2">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Escrime</h2>
-                            <p>J'aime la bagarre.</p>
-                        </div>
-                        <img src="/img/swords.png" alt="2 katanas crossing each other" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container3">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Tir sportif</h2>
-                            <p>Pan, pan, pan.</p>
-                        </div>
-                        <img src="img/musket.png" alt="an image of a musket" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container4">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Rhum</h2>
-                            <p>Juste le boire, pas le distiller.</p>
-                        </div>
-                        <img src="img/barrel.png" alt="image of a barrel" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
-
-                <div class="loisirs-cards-container" id="cards-container5">
-                    <div class="loisirs-cards">
-                        <div class="loisirs-text-container">
-                            <h2>Seduction</h2>
-                            <p>Des fois ça marche.</p>
-                        </div>
-                        <img src="img/heart.png" alt="image of a heart" />
-                    </div>
-                    <div class="background-block"></div>
-                    <div class="background-block2"></div>
-                </div>
+                <?php require 'loisirs.php' ?>
             </div>
         </section>
+=======
+        <div class="border-top"></div>
+            <section class="section section4">
+                <div class="planche-title">
+                    <h1>Loisirs</h1>
+                </div>
+                <h1 id="loisirs">Loisirs</h1>
+                <div class="loisirs">
+                    <?php require 'loisirs.php' ?>
+                </div>
+            </section>
+        <div class="border-bottom"></div>
+>>>>>>> 0b7059b4de1e51c63900cc538a7aaceafbef488c
+
+        
         <div class="lastImg"></div>
     </main>
 
 
 
-    <footer>
+    <div>
         <?php require 'form.php'; ?>
+    </div>
+    <footer>
+        <h2>Github:</h2>
+        <div class="links">
+            <a href="https://github.com/hhertout" target="_blank">Hugues Hertout</a>
+            <a href="https://github.com/V-Gillet" target="_blank">Valentin Gillet</a>
+            <a href="https://github.com/toomanyMG" target="_blank">Mikael Gallé</a>
+            <a href="https://github.com/Planger45" target="_blank">Kevyn Sola</a>
+        </div>
     </footer>
-
 
 
 
