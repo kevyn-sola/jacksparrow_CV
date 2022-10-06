@@ -106,17 +106,18 @@
 
 
         <div class="border-top"></div>
-        <section class="section section4">
-            <div class="planche-title">
-                <h1>Loisirs</h1>
-            </div>
-            <h1 id="loisirs">Loisirs</h1>
-            <div class="loisirs">
-                <?php require 'loisirs.php' ?>
-            </div>
-        </section>
-        <div class="border-bottom"></div>
 
+            <section class="section section4">
+                <div class="planche-title">
+                    <h1>Loisirs</h1>
+                </div>
+                <h1 id="loisirs">Loisirs</h1>
+                <div class="loisirs">
+                    <?php require 'loisirs.php' ?>
+                </div>
+            </section>
+
+        <div class="border-bottom"></div>
 
         <div class="lastImg"></div>
     </main>
