@@ -18,9 +18,12 @@ require '../data/data.php'; ?>
                         <h2><?= $title ?></h2>
                         <p><?= $objects['skilldesc'] ?></p>
                     </div>
+                    <img src="<?= $objects['icon'] ?>" alt="prank" class="picto" />
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 
     </div>
 <?php endforeach ?>
