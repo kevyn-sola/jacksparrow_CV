@@ -85,12 +85,6 @@
         </section>
         <div class="border-bottom"></div>
 
-<<<<<<< HEAD
-
-
-=======
-        
->>>>>>> 2242f4c1c00923ccde184e394584d83fb8cf9afd
         <div class="ba_pirates">
             <video id="background-video" src="/assets/video/video_bg_jack.mp4" autoplay loop muted>
             </video>
@@ -132,7 +126,7 @@
     <div>
         <?php require 'form.php'; ?>
     </div>
-    
+
     <footer>
         <div class="links">
             <a href="https://github.com/hhertout" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Hugues Hertout</a>
