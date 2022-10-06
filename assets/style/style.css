@@ -161,3 +161,20 @@ section {
         font-size: 1.5rem;
     }
 }
+
+.border-top{
+    height: 2vh;
+    width: 100%;
+    background-image: url(../img/border-top.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-block-end: -2px;
+}
+
+.border-bottom{
+    height: 2vh;
+    width: 100%;
+    background-image: url(../img/border-bottom.jpg);
+    background-position: center;
+    background-size: cover;
+}
