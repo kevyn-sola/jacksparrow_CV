@@ -10,7 +10,6 @@
 }
 
 #signature {
-    /* max-width: 70%; */
     width: 40%;
     height: 40%;
 }
@@ -19,12 +18,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
-    
     padding-block: var(--spacing-more);
     margin-block-start: var(--spacing);
-
     background: url(../img/plancheBois4.png);
     background-repeat: no-repeat;
     background-size: cover;
