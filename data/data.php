@@ -86,7 +86,7 @@ $data = [
             'Undefined' => 'Mort - RIP moi ! 🪦'
         ],
         '1646' => [
-            'Résurrection' => 'Plus mort !'
+            'Resurrection' => 'Plus mort !'
         ],
         '1649 - 1652' => [
             'Capitaine' => 'Recherche de la Fontaine de Jouvence.'
@@ -112,7 +112,7 @@ $data = [
         ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket'],
         'Rhum' =>
         ['Juste le boire, pas le distiller.', '../assets/img/barrel.png', 'an image of a barrel'],
-        'Séduction' =>
+        'Seduction' =>
         ['Des fois ça marche...', '../assets/img/heart.png', 'an image of a heart'],
     ],
 
