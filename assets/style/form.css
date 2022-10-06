@@ -32,6 +32,9 @@ form {
 .form-input>label {
     font-family: var(--font-family-h2);
     font-size: 2rem;
+    margin-block-start: 2rem;
+    padding-block-end: 1rem;
+    line-height: 2rem;
 }
 
 legend {
@@ -44,17 +47,17 @@ legend {
     border-radius: 4px;
     font-size: 1.5rem;
     padding: var(--spacing-less);
-    background: transparent;
-    font-family: var(--font-family-h2);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
 }
 
 .form-input>textarea {
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: var(--spacing-less);
-    background: transparent;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
     line-height: 1.5;
-    font-family: var(--font-family-h2);
 }
 
 .form-input .form-btn {
@@ -112,6 +115,20 @@ footer a:hover {
     transition: 0.3s ease-in-out;
 }
 
+.list-errors {
+    background-color: blanchedalmond;
+    color: red;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+/* .answer-submit {
+    background-color: blanchedalmond;
+    color: green;
+    font-size: 1.5rem;
+    list-style: none;
+} */
+
 @media screen and (min-width: 760px) {
     .form-parchemin {
         padding-inline: 20%;
@@ -121,6 +138,7 @@ footer a:hover {
 
     .form-input>label {
         font-size: 3rem;
+        margin-block-start: 3rem;
     }
 
     .form-btn-flex label {
@@ -133,11 +151,11 @@ footer a:hover {
 
     .form-input img {
         width: 300px;
-        height: 240px;
+        height: 300px;
     }    
 
     .form-input>input {
-        height: 2rem;
+        height: 4rem;
 
     }
 
