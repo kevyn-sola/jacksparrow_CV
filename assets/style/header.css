@@ -7,6 +7,7 @@
 .head-fullscreen {
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 .background-image {
@@ -18,18 +19,28 @@
     background-size: cover;
     background-position: center;
 }
-
-.bg-menu {
+.bg-menu-container{
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 100%;
+    width: 100vw;
+    height: calc(30vh + 10vw);
+
+    overflow: hidden;
+}
+.bg-menu {
+    
+
+    width: 120%;
     height: calc(30vh + 10vw);
 
     background-image: url(../media/cloud-1.png);
     background-size: cover;
     background-position: bottom center;
+    background-repeat: repeat-x;
+
+    animation:  15s infinite cloudMove;
 }
 
 .title {
@@ -46,7 +57,7 @@
 
 header h1 {
     font-family: var(--font-family-h1);
-    font-size: 5vw;
+    font-size: 3rem;
     color: var(--text-color2);
 }
 
@@ -279,6 +290,7 @@ header h1 {
 
     .bg-menu {
         height: calc(25vh + 10vw);
+        width: 120%;
     }
 
     .title {
@@ -318,7 +330,7 @@ header h1 {
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
     header h1 {
         font-size: 2rem;
     }
@@ -338,6 +350,9 @@ header h1 {
     .menu-burger {
         top: 20px;
         right: 10px;
+    }
+    .bg-menu {
+        animation: 15s infinite ease-in-out cloudMoveMobile;
     }
 }
 
@@ -400,4 +415,32 @@ header h1 {
     to {
         transform: translate(-50%) scale(var(--scaling));
     }
+}
+
+
+
+@keyframes cloudMove {
+    0%{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateX(-3%);
+    }
+    100%{
+        transform: translateX(0)
+    }
+
+}
+
+@keyframes cloudMoveMobile {
+    0%{
+        transform: translateX(0)
+    }
+    40%{
+        transform: translateX(-6%)
+    }
+    100%{
+        transform: translateX(0)
+    }
+
 }

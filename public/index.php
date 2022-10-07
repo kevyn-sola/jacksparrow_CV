@@ -29,7 +29,7 @@
 <body>
     <header>
         <div class="head-fullscreen">
-            <div class="bg-menu"></div>
+            <div class="bg-menu-container"><div class="bg-menu"></div></div>
             <div class="background-image"></div>
         </div>
         <nav>
