@@ -46,7 +46,7 @@ legend {
 
 .form-input>input {
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: var(--spacing-less);
     background: rgba(255, 255, 255, 0.2);
     border: none;
@@ -121,7 +121,11 @@ legend {
 
     .form-input>input {
         height: 4rem;
+        font-size: 1.5rem;
+    }
 
+    .form-input>textarea {
+        font-size: 1.3rem;
     }
 
     .form-input>.form-btn {
