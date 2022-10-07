@@ -119,7 +119,7 @@
             <div class="planche-title">
                 <h1>Loisirs</h1>
             </div>
-            <div class="loisirs">
+            <div class="loisirs" id="loisirs">
                 <?php require 'loisirs.php' ?>
             </div>
         </section>

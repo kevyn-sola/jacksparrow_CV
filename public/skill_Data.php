@@ -3,6 +3,7 @@ require '../data/data.php';
 
 
 foreach ($data['competences'] as $title => $objects) : ?>
+<div class="menu-skill">
     <div class="skill">
         <div class="competences-container">
             <div class="plank-container">
@@ -19,9 +20,8 @@ foreach ($data['competences'] as $title => $objects) : ?>
             </div>
         </div>
     </div>
-    </div>
+</div>
 
-    </div>
 <?php endforeach ?>
 
 
