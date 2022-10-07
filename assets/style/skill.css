@@ -232,6 +232,10 @@
     .section2 p {
         font-size: 1.3rem;
     }
+
+    .skill {
+        margin-block-start: -8px;
+    }
 }
 
 @media screen and (min-width: 768px) {
