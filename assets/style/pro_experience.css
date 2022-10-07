@@ -142,9 +142,6 @@
 }
     
 @media screen and (max-width: 450px) {
-    .section3{
-        padding: 0;
-    }
     .img-quotes-container{
         flex-direction: column;
         padding: 0;
