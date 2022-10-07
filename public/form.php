@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
     <div class="form-input">
         <div class="form-btn-flex">
-            <label for="btn_submit">Cliques sur le cachet !</label>
+            <label for="btn_submit">Clique sur le cachet !</label>
             <button class="form-btn" id="btn_submit" type="submit" value="Appose ta marque !!">
                 <img src="../assets/img/cachet_cire_jack4.png" alt="Cachet de cire Pirates" />
         </div>
