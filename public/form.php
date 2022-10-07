@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="text" name="email" id="email" placeholder="Jack.sparrow@tortuga.bay" required value="<?= $contactForm['email'] ?>" />
 
         <label for="message"><?= $data['form']['label-message']; ?></label>
-        <textarea name="message" id="message" cols="30" rows="10" value="<?= $contactForm['message'] ?>" placeholder="Je lirai peut etre ton contenu..."></textarea>
+        <textarea name="message" id="message" cols="30" rows="10" value="<?= $contactForm['message'] ?>" placeholder="Je lirai peut être ton contenu..."></textarea>
     </div>
     <div class="form-input">
         <div class="form-btn-flex">
