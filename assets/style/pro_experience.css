@@ -90,6 +90,7 @@
 
 .exp-quotes h2{
     text-align: center;
+    font-size: 2rem;
 }
 
 .quotes-container{
@@ -105,8 +106,8 @@
 
 .img-quotes-container{
     display: flex;
-    padding: var(--spacing-more);
-    margin-block: var(--spacing);
+    padding: var(--spacing);
+    
 }
 
 .img-quotes-container > p:last-child{
@@ -163,7 +164,7 @@
 @media screen and (max-width: 450px) {
     .img-quotes-container{
         flex-direction: column;
-        padding: 0;
+        padding-block-end: var(--spacing);
     }
     .quotes-pic{
         width: 7rem;
