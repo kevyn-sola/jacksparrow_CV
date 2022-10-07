@@ -85,8 +85,8 @@
 
 
         <div class="border-top"></div>
-        <section class="section section2" id="competences">
-            <div class="planche-title">
+        <section class="section section2">
+            <div class="planche-title" id="competences">
                 <h1>Competences</h1>
             </div>
             <div class="skill">
@@ -103,7 +103,7 @@
 
 
         <div class="border-top"></div>
-        <section class="section section3" id="experience-pro">
+        <section class="section section3">
             <?php require 'experience_pro.php' ?>
         </section>
         <div class="border-bottom"></div>
@@ -116,10 +116,10 @@
 
         <div class="border-top"></div>
         <section class="section section4">
-            <div class="planche-title">
+            <div class="planche-title" id="loisirs">
                 <h1>Loisirs</h1>
             </div>
-            <div class="loisirs" id="loisirs">
+            <div class="loisirs">
                 <?php require 'loisirs.php' ?>
             </div>
         </section>

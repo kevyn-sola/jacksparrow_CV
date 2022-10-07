@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ?>
 
-    <form action="" method="post" class="form-parchemin">
+    <form action="" method="post" class="form-parchemin" id="contact">
         <?php if (!empty($errors)): ?>
             <ul class="list-errors">
                 <?php foreach ($errors as $error): ?>
@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </ul>
         <?php endif; ?>
     <div class="form-input">
-        <legend id="contact"><?= $data['form']['legend']; ?></legend>
+        <legend><?= $data['form']['legend']; ?></legend>
 
         <label for="firstname"><?= $data['form']['label-firstname']; ?></label>
         <input type="text" name="firstname" id="firstname" placeholder="Jack" required value="<?= $contactForm['firstname'] ?>" />
