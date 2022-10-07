@@ -80,6 +80,7 @@ legend {
 .form-btn-flex img:hover {
     filter: brightness(120%);
     scale: 102%;
+    transition: ease-in 0.4s;
 }
 
 .form-btn-flex label {
