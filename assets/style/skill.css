@@ -16,7 +16,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-block-end: var(--spacing-more);
+    margin-block-end: var(--spacing-less);
+    margin-block-start: -25px;
 }
 
 .competences-container{
@@ -31,7 +32,7 @@
     font-family: var(--font-family-h2);
     margin-inline-start: var(--spacing);
     padding-inline-start: 30px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 
@@ -40,7 +41,7 @@
     padding: var(--spacing);
     padding-inline-start: 30px;
     margin-inline-start: var(--spacing);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-block-start: 0;
 }
 
@@ -214,6 +215,17 @@
 
     .skill-cards-container5{
         width: 97%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .section2 h2 {
+        font-size: 2.2rem;
+    }
+    
+    
+    .section2 p {
+        font-size: 1.3rem;
     }
 }
 
