@@ -61,7 +61,7 @@
 
 .experience p span{
     font-family: var(--font-family-h1);
-    font-size: 1.2rem;
+    font-size: 25px;
 }
 
 .experience hr,
@@ -133,6 +133,22 @@
 }
 
 /*==================MEDIA QUERIES==================*/
+@media screen and (max-width: 680px) {
+    .experience p{
+        font-size: 1.8rem;
+
+    }
+
+    .date p {
+        font-size: 1.9rem;
+    }
+
+    .experience p span{
+        font-size: 1.4rem;
+    }
+    
+}
+
 @media screen and (min-width: 640px){
 
     .experience-pro-container{
@@ -140,6 +156,8 @@
         margin-inline: auto;
     }
 }
+
+
     
 @media screen and (max-width: 450px) {
     .img-quotes-container{

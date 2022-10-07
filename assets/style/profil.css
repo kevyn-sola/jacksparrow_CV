@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-block: var(--spacing-more);
 }
 
 #signature {
@@ -82,6 +83,12 @@
 .info-profil {
     padding-block-start: 2em;
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 760px) {
     .profil-jack {
