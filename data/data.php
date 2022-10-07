@@ -141,7 +141,7 @@ $data = [
         'legend' => 'Allez mon gars... Contacte moi!',
         'label-firstname' => 'Ecris ton prenom!',
         'label-lastname' => 'Ecris ton nom!',
-        'label-email' => 'Ajoutes ton adresse postale numerique!',
+        'label-email' => 'Ajoute ton adresse postale numerique!',
         'label-message' => 'Dis moi ce que tu desires!',
     ],
 ];
