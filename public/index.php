@@ -138,7 +138,7 @@
         <div class="links">
             <a href="https://github.com/hhertout" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Hugues Hertout</a>
             <a href="https://github.com/V-Gillet" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Valentin Gillet</a>
-            <a href="https://github.com/toomanyMG" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Mikael Galle</a>
+            <a href="https://github.com/toomanyMG" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Mikaël Galle</a>
             <a href="https://github.com/Planger45" target="_blank"><img src="../assets/media/github.png" alt="github" class="github-logo">Kevyn Sola</a>
         </div>
     </footer>
