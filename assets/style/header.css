@@ -437,7 +437,7 @@ header h1 {
         transform: translateX(0)
     }
     40%{
-        transform: translateX(-6%)
+        transform: translateX(-10%)
     }
     100%{
         transform: translateX(0)

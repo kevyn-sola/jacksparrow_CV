@@ -165,23 +165,28 @@
 }
 
 .loisirs-cards1:hover {
-    scale: 1.05;
+    scale: 1.03;
+    rotate: 1deg;
 }
 
 .loisirs-cards2:hover {
-    scale: 1.05;
+    scale: 1.03;
+    rotate: -2deg;
 }
 
 .loisirs-cards3:hover {
-    scale: 1.05;
+    scale: 1.03;
+    rotate: 2deg;
 }
 
 .loisirs-cards4:hover {
-    scale: 1.05;
+    scale: 1.03;
+    rotate: 2deg;
 }
 
 .loisirs-cards5:hover {
-    scale: 1.05;
+    scale: 1.03;
+    rotate: 1deg;
 }
 
 .loisirs-text-container {
