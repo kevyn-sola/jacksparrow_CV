@@ -105,7 +105,8 @@
 
 .img-quotes-container{
     display: flex;
-    padding: var(--spacing);
+    padding: var(--spacing-more);
+    margin-block: var(--spacing);
 }
 
 .img-quotes-container > p:last-child{
