@@ -10,13 +10,13 @@ $data = [
         'altIconProfil' => 'Icone d\'une ancre de bateau',
         'permis' => 'Permis Bateau',
         'titreProfil' => 'Capitaine Jack Sparrow',
-        'description' => 'Seigneur pirate de la mer des Caraïbes, Née le 11 janvier 1693. <br>
+        'description' => 'Seigneur pirate de la mer des Caraïbes, né le 11 janvier 1693. <br>
                             J’aime boire du rhum et séduire des femmes. <br>
-                            Toujours partant pour chercher quelque trésors surnaturel, rien de bon qu’une bonne quête à la
+                            Toujours partant pour chercher quelque trésors surnaturel, rien de mieux qu’une bonne quête à la
                             recherche de richesse ! <br>
                             Je suis particulièrement partisan du choix de la négociation plutôt que de faire parler les
                             armes. <br>
-                            Certains vous diront que je suis un traitre mais ne faite pas attention à ce genre de calomnies.
+                            Certains vous diront que je suis un traitre mais ne faites pas attention à ce genre de calomnies.
                             <br>',
         'contactProfil' => 'Vous pouvez me retrouver à Nassau dans les Caraïbes <br>
                                 ou <br>
@@ -34,7 +34,7 @@ $data = [
 
         'Bagarreur' => [
             'classIconSkill' => 'icon-fighter',
-            'skilldesc' => '23 Batailles à mon actif !',
+            'skilldesc' => '23 batailles à mon actif !',
             'icon' => '../assets/img/swords-icon.png',
             'classCardsContainer' => 'skill-cards-container1',
             'classCards' => 'skill-cards1',
@@ -68,7 +68,7 @@ $data = [
 
 
             'classIconSkill' => 'icon-management',
-            'skilldesc' => 'Capitaine sur une dizaines de navires.',
+            'skilldesc' => 'Capitaine sur une dizaine de navires.',
             'icon' => '../assets/img/leader-icon.png',
             'classCardsContainer' => 'skill-cards-container4',
             'classCards' => 'skill-cards4',
@@ -96,10 +96,10 @@ $data = [
             'Capitaine' => 'Capitaine du Black Pearl. Pillage & recherche de trésors en tout genre !'
         ],
         '1640' => [
-            'Capitaine' => 'Capitaine d\'un vieux raffiot avec une équipe de bras cassés. Objectif : Récupérer mon beau Black Pearl !'
+            'Pseudo Capitaine' => 'Capitaine d\'un vieux raffiot avec une équipe de bras cassés. Objectif : Récupérer mon beau Black Pearl !'
         ],
         '1642 - 1644' => [
-            'Capitaine' => 'Capitaine du Black Pearl'
+            'Capitaine' => 'Capitaine du Black Pearl.'
         ],
         '1644' => [
             'Undefined' => 'Mort - RIP moi ! 🪦'
@@ -115,10 +115,10 @@ $data = [
 
     'avis' => [
 
-        '../assets/img/legolas.jpg' => ['William Turner' => 'Cet homme est le meilleur arch... euh tireur que j\'ai rencontré de ma vie d\'elf... euh de pirate.'],
+        '../assets/img/legolas.jpg' => ['William Turner' => 'Cet homme est le meilleur arch... euh tireur que j\'ai rencontré de<br>ma vie d\'elf... euh de pirate.'],
         '../assets/img/barbossa.jpeg' => ['Hector Barbossa' => 'Je n\'ai jamais aussi bien vécu une mutinerie qu\'avec Jack Sparrow !'],
-        '../assets/img/elizabeth.jpg' => ['Elizabeth Swann' => 'Il ne s\'est jamais rien passé entre Jack et moi et il ne se passera jamais rien !!'],
-        '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme ! J\'espère qu\'en disant ça il va enfin me payer tout ce qu\'il me doit.'],
+        '../assets/img/elizabeth.jpg' => ['Elizabeth Swann' => 'Il ne s\'est jamais rien passé entre Jack et moi et il ne se passera <br> jamais rien !!'],
+        '../assets/img/Gibbs.jpg' => ['Joshamee Gibbs' => 'Super Capitaine ! Quelle prestance ! Quel charisme !<br> J\'espère qu\'en disant  ça il va enfin me payer tout ce qu\'il me doit.'],
 
     ],
 
@@ -126,7 +126,7 @@ $data = [
         'Pecher' =>
         ['Kraken, merle, sardine.', '../assets/img/kraken.png', 'an image of a kraken', 'loisirs-cards1', 'plank1', 'loisirs-cards-container1'],
         'Escrime' =>
-        ['J\'aime la bagarre.', '../assets/img/swords.png', 'an image of a sword', 'loisirs-cards2', 'plank2', 'loisirs-cards-container2'],
+        ['J\'aime la bagarre et le fleuret.', '../assets/img/swords.png', 'an image of a sword', 'loisirs-cards2', 'plank2', 'loisirs-cards-container2'],
         'Tir sportif' =>
         ['Pan, pan pan.', '../assets/img/musket.png', 'an image of a musket', 'loisirs-cards3', 'plank3', 'loisirs-cards-container3'],
         'Rhum' =>

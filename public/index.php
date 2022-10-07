@@ -59,7 +59,7 @@
                 <a href="#contact" class="display-menu-links">Contact</a>
             </div>
         </nav>
-        <h2 class="subtitle-header">Free to contract !</h2>
+        <h2 class="subtitle-header">Cherche un contrat !</h2>
         <div class="scroll-down-indicator">
             <a href="#profil" class="scrooll-half-cross">
                 <div class="scroll-half-cross-lines half-cross-line1"></div>
