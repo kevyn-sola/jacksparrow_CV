@@ -222,6 +222,10 @@
     .section4 p {
         font-size: 1.3rem;
     }
+
+    .loisirs {    
+        margin-block-start: -8px;
+    }
 }
 
 
