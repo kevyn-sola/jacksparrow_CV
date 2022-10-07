@@ -15,7 +15,7 @@
                 <p>
                     <span><?= $title ?></span>
                     <hr>
-                    <?= $description ?>
+                <p><?= $description ?></p>
                 </p>
             <?php endforeach ?>
         </div>
@@ -36,8 +36,8 @@
                         <p><b><?= $name ?></b></p>
                     </div>
 
-                    <?php endforeach ?>
-                </div>
-    <?php endforeach ?>
+                <?php endforeach ?>
+            </div>
+        <?php endforeach ?>
     </div>
 </div>
