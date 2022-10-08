@@ -21,7 +21,7 @@
 
 ## Team:
 
-Rajoutez nos github !!!
+Nos github !!!
 - Hugues Hertout:
 https://github.com/hhertout
 - Valentin Gillet:
