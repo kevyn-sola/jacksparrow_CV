@@ -6,7 +6,8 @@ Projet réalisé dans le cadre de la formation Développeur Web - Wild Code Scho
 
 ➡️ Durée: deux semaines, dont trois jours de formation dédié à la réalisation du projet. 
 
-➡️ Présentation orale du projet, à la fin de la première semaine, présentant le wireframe et l'avancement du projet. 
+➡️ Présentation orale du projet, à la fin de la première semaine, présentant le wireframe et l'avancement du projet.
+
 ➡️ Présentation finale du projet, présentant la page web et les fonctionnalités du site. 
 
 
