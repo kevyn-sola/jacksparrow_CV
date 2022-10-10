@@ -2,7 +2,7 @@
 
 *Projet réalisé dans le cadre de la formation Développeur Web - Wild Code School (Campus d'Orléans).*
 
-➡️ Objectif: Réalisé une page web ayant pour but de présenter le CV d'un personnage fictif.
+➡️ Objectif: Réaliser une page web ayant pour but de présenter le CV d'un personnage fictif.
 
 ➡️ Durée: deux semaines, dont trois jours de formation dédié à la réalisation du projet. 
 
@@ -31,7 +31,7 @@ https://github.com/toomanyMG
 
 ✓ Intégration de la maquette en HTML / CSS.
 
-✓ Ajout de fonctionnalité: menu burger en JavaScript. 
+✓ Ajout de fonctionnalités: menu burger en JavaScript, etc ... 
 
 ✓ Intégration des données avec PHP
 
