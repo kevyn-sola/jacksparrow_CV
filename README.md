@@ -26,16 +26,23 @@ https://github.com/toomanyMG
 ## Déroulement du projet: 
 
 ✓ Mise en place du wireframe
+
 ✓ Mise en place de la charte graphique et conception de la maquette sur Figma
+
 ✓ Intégration de la maquette en HTML / CSS.
+
 ✓ Ajout de fonctionnalité: menu burger en JavaScript. 
+
 ✓ Intégration des données avec PHP
 
 ## Fonctionnalités: 
 
 ➡️ Intégration complète des données avec PHP
+
 ➡️ Animation en CSS / JavaScript
-➡️ Formulaire de contact sécurisé front & back avec HTML & PHP. 
+
+➡️ Formulaire de contact sécurisé front & back avec HTML & PHP.
+
 
 ## Idées d'amélioration:
 - Relier le formulaire avec un système de gestion de base de donnée. 
