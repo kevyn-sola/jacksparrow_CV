@@ -1,6 +1,6 @@
 # Jacksparrow_CV
 
-Projet réalisé dans le cadre de la formation Développeur Web - Wild Code School (Campus d'Orléans).
+*Projet réalisé dans le cadre de la formation Développeur Web - Wild Code School (Campus d'Orléans).*
 
 ➡️ Objectif: Réalisé une page web ayant pour but de présenter le CV d'un personnage fictif.
 
