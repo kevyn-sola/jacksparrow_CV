@@ -35,7 +35,7 @@ https://github.com/toomanyMG
 
 ✓ Intégration des données avec PHP
 
-## Fonctionnalités: 
+## Intégration des Fonctionnalités: 
 
 ➡️ Intégration complète des données avec PHP
 
@@ -45,4 +45,5 @@ https://github.com/toomanyMG
 
 
 ## Idées d'amélioration:
-- Relier le formulaire avec un système de gestion de base de donnée. 
+- Intégration du formulaire avec un SGBD.
+- Amélioration des performances (réduction du poids des images...) 
